@@ -1,0 +1,154 @@
+html, body, head {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+/* NAVBAR */
+#nav {
+  margin-top: 40px;
+}
+.containernav {
+  display: grid;  
+  grid-template-columns: 1fr 0fr 0fr;
+}
+nav ul {
+  grid-gap: 5px 90px;
+  display: flex;
+}
+.logo {
+  width: 80px;
+}
+ul {
+  list-style:none;
+  /* background-color: aquamarine; */
+}
+a:link {
+  text-decoration:none; 
+  list-style-type: none;
+}
+.activity {
+  color: black;
+}
+/* NAVBAR */
+
+/* SEARCH */
+.sectionsearch {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.mapmarker {
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.searchfield {
+  width: 235px;
+  border-top: solid #f2f2f2 1px;
+  border-bottom: solid #f2f2f2 1px;
+  border-left: none;
+  border-right: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: initial;
+  padding-left: 20px;
+}
+.searchbutton {
+  color: white;
+  width: 132px;
+  background-color: #0065fc;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: initial;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+/* FILTERS */
+.filters {
+  display: grid;
+  grid-template-columns: 0fr 1fr 0fr;
+  align-items: center;
+}
+.allfilters {
+  grid-gap: 5px 10px;
+  display: flex;
+}
+#economy, #familial, #animals, #romantic{
+  border-top: solid #e0e0e0 2px;
+  border-right: solid #e0e0e0 2px;
+  border-bottom: solid #e0e0e0 2px;
+  border-left: none;
+  border-radius: 60px;
+  padding-right: 15px;
+}
+/* .filter > .filters > ul > li > a {
+  text-align: center;
+  color: black;
+} */
+i {
+  background-color: #deebff;
+  padding: 15px 15px 15px 15px;
+  border-radius: 50%;
+}
+/* FILTER */
+
+/* MAIN  */
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3.3vw;
+}
+/* MAIN  */
+
+/* ARTICLES */
+.containerarticles {
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  margin-top: 2.5vw;
+  width: 67%;
+}
+/* ARTICLES */
+
+/* ASIDE  */
+.fas .fa-info-circle {
+  border-top: solid #e0e0e0 2px;
+  border-right: solid #e0e0e0 2px;
+  border-bottom: solid #e0e0e0 2px;
+}
+.asidepopularity {
+  background-color: rgb(160, 212, 63);
+  border-radius: 25px;
+  width: 31%;
+  margin-top: 2.5vw;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+/* FOOTER */
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
