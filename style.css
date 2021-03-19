@@ -25,8 +25,9 @@ ul {
   /* background-color: aquamarine; */
 }
 a:link {
-  text-decoration:none; 
+  text-decoration: none;
   list-style-type: none;
+  align-items: center;
 }
 .activity {
   color: black;
@@ -44,7 +45,7 @@ a:link {
   height: 50px;
   margin-bottom: 30px;
 }
-.mapmarker {
+#mapmarker {
   min-width: 60px;
   display: flex;
   justify-content: center;
@@ -54,7 +55,10 @@ a:link {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-.searchfield {
+#mapmarker > i {
+  background-color: #f2f2f2;
+}
+#searchfield {
   width: 235px;
   border-top: solid #f2f2f2 1px;
   border-bottom: solid #f2f2f2 1px;
@@ -65,7 +69,7 @@ a:link {
   font-size: initial;
   padding-left: 20px;
 }
-.searchbutton {
+#searchbutton {
   color: white;
   width: 132px;
   background-color: #0065fc;
@@ -112,7 +116,6 @@ i {
 main {
   display: flex;
   justify-content: space-between;
-  margin: 0 3.3vw;
 }
 /* MAIN  */
 
@@ -140,8 +143,15 @@ main {
   position: relative;
 }
 
-/* FOOTER */
+.activitycity {
+  background-color: #f2f2f2;
+  border-radius: 25px;
+}
 
+/* FOOTER */
+.footer {
+  background-color: lime;
+}
 /* FOOTER */
 
 
