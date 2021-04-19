@@ -18,6 +18,8 @@ main {
   margin-left: 50px;
   margin-right: 50px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
@@ -74,10 +76,7 @@ nav ul li {
 
   /* MAIN */
 /*INFORMATION*/
-.info {
-  margin-left: 50px;
-  margin-right: 50px;
-}
+
 /*INFORMATION*/
 
 /* SEARCH */
@@ -85,7 +84,6 @@ nav ul li {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
 }
 
 .search {
@@ -144,7 +142,6 @@ nav ul li {
 
 /* FILTERS */
 .filters {
-  margin-left: 50px;
   display: flex;
   align-items: center;
 }
@@ -254,9 +251,7 @@ i {
 
 .starspopularity {
   color: #0065fc;
-  font-size: 0.8vw;
-  margin-left: 10px;
-  margin-top: 30px;
+  display: flex;
 }
 
 .greystar {
@@ -266,10 +261,10 @@ i {
 /*MAIN*/
 
 /* ASIDE  */
-.sectionaside {
+aside {
   background-color: #f2f2f2;
   border-radius: 25px;
-  width: 31%;
+  width: 30%;
   margin-top: 2.5vw;
   padding-bottom: 20px;
   position: relative;
@@ -315,7 +310,6 @@ i {
 }
 .boxactivites_1 {
   display: flex;
-  padding: 0;
 }
 
 .boxactivity_2 {
@@ -334,9 +328,6 @@ i {
 }
 
 .activitycity {
-  border-radius: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
   margin-top: 50px;
 }
 
@@ -344,6 +335,7 @@ i {
   width: 21vw;
   box-shadow: 4px 2px 20px rgb(201, 201, 201);
   border-radius: 30px;
+  margin: 0;
 }
 
 .boxactivity_b , .boxactivity_f {
@@ -355,13 +347,13 @@ i {
   border-radius: 30px;
 }
 
-.boxactivity_c , .boxactivities_e {
+.boxactivity_c , .boxactivity_e{
   width: 21vw;
-  height: 41%;
+  height: 50%;
   padding: 0;
   margin: 0;
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
-  border-radius: 30px;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 20px;
 }
 
 .imgactivity1 , .imgactivity4 {
@@ -391,11 +383,30 @@ i {
 .sectionsactivity {
   margin-top: 50px;
   display: flex;
+  justify-content: space-between;
 }
 /*SECTION ACTIVITY*/
   /* MAIN */
 
 
 /* FOOTER */
+footer {
+  display: flex;
+  background-color: #f2f2f2;
+  flex-direction: row;
+}
 
+.marginfooter {
+  margin-left: 42px;
+}
+
+.apropos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.hebergementsfooter {
+  padding-inline: 400px;
+}
 /* FOOTER */
