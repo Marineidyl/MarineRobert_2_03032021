@@ -259,7 +259,10 @@ i {
 }
 /*ICONES*/
 /*MAIN*/
-
+.inlinearticles_aside {
+  display: flex;
+  justify-content: space-around;
+}
 /* ASIDE  */
 aside {
   background-color: #f2f2f2;
