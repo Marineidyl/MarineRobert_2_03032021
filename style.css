@@ -6,7 +6,6 @@ body {
 
 html {
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
 }
 
 header {
@@ -58,10 +57,19 @@ a:link {
   text-decoration: none;
   list-style-type: none;
   align-items: center;
+  color: black;
+}
+
+a.hebergement , a.inscription {
+  color: blue;
 }
 
 .activity {
   color: black;
+}
+
+a.activity:hover {
+  color: blue;
 }
 
 nav ul li:hover {
@@ -76,7 +84,10 @@ nav ul li {
 
   /* MAIN */
 /*INFORMATION*/
-
+.iconeinfo {
+  border: solid 1px #f2f2f2;
+  color: blue;
+}
 /*INFORMATION*/
 
 /* SEARCH */
@@ -243,10 +254,11 @@ i {
 }
 
 .iconpopularity {
-  position: absolute;
-  top: 3.3vw;
-  right: 3vw;
-  font-size: 1.6vw;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 93%;
 }
 
 .starspopularity {
@@ -330,6 +342,11 @@ aside {
   border-radius: 20px;
 }
 
+.boxactivites_2 {
+display: flex;
+flex-direction: column;
+}
+
 .activitycity {
   margin-top: 50px;
 }
@@ -397,6 +414,7 @@ footer {
   display: flex;
   background-color: #f2f2f2;
   flex-direction: row;
+  margin-top: 70px;
 }
 
 .marginfooter {
@@ -412,4 +430,5 @@ footer {
 .hebergementsfooter {
   padding-inline: 400px;
 }
+
 /* FOOTER */
