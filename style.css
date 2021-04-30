@@ -72,8 +72,14 @@ nav ul li {
 
   /* MAIN */
 /*INFORMATION*/
-.iconeinfo {
-  border: solid 1px #f2f2f2;
+#iconeinfo {
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 10px 15px 12px 15px;
+  border-top: solid #e0e0e0 1px;
+  border-right: solid #e0e0e0 1px;
+  border-bottom: solid #e0e0e0 1px;
+  border-left: solid #e0e0e0 1px;
   color: blue;
 }
 /*INFORMATION*/
@@ -147,6 +153,11 @@ nav ul li {
 
 .allfilters {
   display: flex;
+  margin: 0px 0px 0px -35px;
+}
+
+.info {
+  margin: 35px 0px 0px 0px;
 }
 
 #economy, #familial, #animals, #romantic{
@@ -194,8 +205,8 @@ i {
 }
 
 .more {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 10px 0px 0px 55px;
+  font-size: 20px;
 }
 
 .boxhebergements {
@@ -231,7 +242,6 @@ i {
 .containerarticles {
   background-color: #f2f2f2;
   border-radius: 25px;
-  margin-top: 45px;
   width: 65%;
   display: flex;
   flex-direction: column;
@@ -257,11 +267,11 @@ i {
     font-family: "Font Awesome 5 Free";
 }
 
-.iconpopularity {
+.titlepopularity {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  width: 93%;
+  width: 95%;
 }
 
 .starspopularity {
@@ -279,24 +289,29 @@ i {
 }
 
 .greystar {
-  color:#f2f2f2;
+  color: #cacaca;
+}
+
+#iconpopularitytitle {
+  font-size: 22px;
 }
 /*ICONES*/
+
 /*MAIN*/
 .inline_articles_aside {
   display: flex;
   justify-content: space-between;
+  margin-top: 25px;
 }
 /* ASIDE  */
 aside {
   background-color: #f2f2f2;
   border-radius: 25px;
   width: 33%;
-  margin-top: 45px;
 }
 
-.titlepopularity {
-  margin: 40px 0px 30px 50px;
+.h2_popularity {
+  margin: 40px 0px 25px 40px;
 }
 
 .blocpopularity {
@@ -326,7 +341,7 @@ aside {
   height: 185px;
   float: left;
   padding: 6px 15px 6px 6px;
-  
+  object-fit: cover;  
 }
 /*ASIDE*/
 
@@ -346,9 +361,10 @@ aside {
   margin: 0;
   box-shadow: 4px 2px 20px rgb(201, 201, 201);
   border-radius: 20px;
+  height: 17vw;
 }
 
-.boxactivites_2 {
+.boxactivites_2, .boxactivites_4 {
   display: flex;
   flex-direction: column;
 }
@@ -357,7 +373,7 @@ aside {
   margin-top: 65px;
 }
 
-.boxactivites_1 {
+.boxactivites_1, .boxactivites_3 {
   display: flex;
   flex-direction: column;
 }
@@ -375,7 +391,8 @@ aside {
   margin: 0;
   box-shadow: 4px 2px 20px rgb(201, 201, 201);
   border-radius: 30px;
-  margin-top: 10px;
+  margin-top: 44px;
+  width: 25vw;
 }
 
 
@@ -385,11 +402,12 @@ aside {
   margin: 0;
   box-shadow: 4px 2px 20px rgb(201, 201, 201);
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 32px;
+  height: 12vw;
 }
 
 .boxactivity_e {
-  width: 21vw;
+  width: 25vw;
   margin: 0;
   box-shadow: 4px 2px 20px rgb(201, 201, 201);
   border-radius: 20px;
@@ -399,7 +417,7 @@ aside {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 265px;
+  height: 281px;
   object-fit: cover;
 }
 
@@ -407,7 +425,7 @@ aside {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 247px;
+  height: 246px;
   object-fit: cover;
 }
 
@@ -415,7 +433,7 @@ aside {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 165px;
+  height: 184px;
   object-fit: cover;
 }
 
@@ -423,8 +441,8 @@ aside {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 185px;
   object-fit: cover;
+  height: 203px;
 }
 
 .sectionsactivity {
@@ -451,7 +469,12 @@ aside {
 }
 
 figcaption {
-  padding: 15px 0px 23px 30px;
+  padding: 10px 0px 0px 0px;
+  display: ruby-text;
+}
+
+.h3boxactivty {
+  padding: 0px 0px 0px 45px;
 }
 /*SECTION ACTIVITY*/
   /* MAIN */
@@ -476,19 +499,18 @@ figcaption {
 /* FOOTER */
 
 /* MEDIA QUERIES */
-
-
-
-
 @media (min-width: 600px) and (max-width: 1024px) {
 /* 
   ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
 */  
   
   /* STRUCTURE */
   header, body, html {
     overflow-x: hidden;
+  }
+
+  header {
+    margin-top: 20px;
   }
 
   body {
@@ -502,7 +524,7 @@ figcaption {
   }
 
   .titleprincipal {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   /* HEADER */
 
@@ -517,9 +539,13 @@ figcaption {
   .allfilters { 
     margin: 0px 0px 0px -46px;
   }
+
+  .filters {
+    font-size: 14px;
+  }
     /* FILTER */
 
-    /* SECTION ACTIVITY */
+    /* SECTION HEBERGEMENT */
   .containerarticles {
     flex-direction: column;
     width: 100%;
@@ -538,27 +564,79 @@ figcaption {
 
   #hebergements {
     margin: 20px 0px 25px 25px;
+    font-size: 22px;
   }
-  /* SECTION ACTIVITY */
+  /* SECTION HEBERGEMENT */
 
   /* ASIDE */
 
   aside {
     width: 100%;
+    margin-top: 25px;
   }
 
   .inline_articles_aside {
     flex-wrap: wrap;
   }
   
+  .activitycity {
+    margin-top: 30px;
+  }
   /* ASIDE */
+
+  /* SECTION ACTIVITY */
+  .boxactivites_1 {
+    order: 1;
+    width: 40vw;
+  height: 32vw;
+  }
+
+  .boxactivity_2 {
+    order: 2;
+    width: 40vw;
+  height: 32vw;
+  }
+  
+  .boxactivites_3 {
+    order: 3;
+    width: 40vw;
+  height: 32vw;
+  }
+
+  .boxactivites_4 {
+    order: 4;
+    width: 40vw;
+    height: 32vw;
+
+  }
+
+  .boxactivity_a , .boxactivites_b , .boxactivity_c , .boxactivity_d , .boxactivity_e {
+    width: 40vw;
+    height: 32vw;
+  }
+
+  .boxactivity_c {
+    margin: 0 0 0 0;
+  }
+
+  .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
+    height: 205px;
+  }
+
+  .h3boxactivty {
+    padding: 0px 0px 0px 15px;
+  }
  /* MAIN */
  
  /* FOOTER */
-
+  footer {
+    overflow: hidden;
+    margin: 10px 0px 5px -35px;
+    justify-content: space-around;
+  }
  /* FOOTER */
-}
 
+}
 
 
 @media (min-width: 1025px) and (max-width: 1280px) {
