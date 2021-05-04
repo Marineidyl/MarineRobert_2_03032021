@@ -517,8 +517,8 @@ figcaption {
 
     /* LOGO */
     .logo {
-      width: 100px;
-      height: 45px;
+    width: 100%;
+    height: 40px;
     }
     /* LOGO */
 
@@ -526,7 +526,7 @@ figcaption {
   nav ul {
     font-size: 16px;
     display: flex;
-    margin: -6px 0px 40px 0px;
+    margin: -10px 15px 40px 0px;
   }
 
   .titleprincipal {
@@ -623,6 +623,10 @@ figcaption {
     margin: 0px 0px 100px 50px;
   }
 
+  .activitycity {
+    margin-bottom: 65px;
+  }
+
  /* MAIN */
  
  /* FOOTER */
@@ -630,6 +634,10 @@ figcaption {
     overflow: hidden;
     margin: 10px 0px 5px -35px;
     justify-content: space-around;
+  }
+
+  .hebergementsfooter {
+    padding-inline: 75px;
   }
  /* FOOTER */
 }
@@ -744,7 +752,7 @@ figcaption {
 
   .sectionsactivity {
     display: inline-block;
-    margin-left: 125px;
+    padding-left: 50px;
   }
  /* MAIN */
  
@@ -753,13 +761,34 @@ figcaption {
   footer {
     overflow: hidden;
     margin: 100px 0px 5px -35px;
-    justify-content: space-around;
+    justify-content:space-around;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  nav ul {
+    margin: -10px 30px 40px 0px !important;
+  }
+
+  .hebergementsfooter {
+    padding-inline: 180px;
+  }
+
+  .apropos{
+    margin: 0px 0px 0px 0px !important;
   }
  /* FOOTER */
 }
 
 @media (min-width: 834px) and (max-width: 1112px) {
   
+  /* SECTION FILTERS */
+
+  .allfilters {
+    margin: 0px 0px 0px -35px;  
+  }
 
   /* SECTION HEBERGEMENT */
   .wrapper {
@@ -784,6 +813,12 @@ figcaption {
     margin-right: 15px !important;
   }
   /* SECTION HEBERGEMENT */
+
+  /* FOOTER */
+  .sectionsactivity {
+    padding-left: 60px;
+    margin-top: -25px;
+  }
 }
 
 
@@ -809,7 +844,17 @@ figcaption {
     width: 65vw;
     height: 35vw;
   }
+
+  .sectionsactivity {
+    padding-left: 130px;
+  }
   /* SECTION ACTIVITY */
+
+  /* FOOTER */
+  footer {
+    padding: 0 !important;
+  }
+  /* FOOTER */
 
 }
 
