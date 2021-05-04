@@ -507,7 +507,6 @@ figcaption {
   }
   body {
     margin: 0;
-    background-color: rgb(205, 50, 89);
   }
 
   header {
@@ -650,10 +649,6 @@ figcaption {
 
   header {
     margin-top: 20px;
-  }
-
-  body {
-    background-color: rgb(193, 177, 219);
   }
   /* STRUCTURE */
 
@@ -867,7 +862,6 @@ figcaption {
 
   body {
     margin: 0;
-    background-color: yellowgreen;
   }
   /* STRUCTURE */
   
