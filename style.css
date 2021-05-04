@@ -525,6 +525,8 @@ figcaption {
   /* HEADER */
   nav ul {
     font-size: 16px;
+    display: flex;
+    margin: -6px 0px 40px 0px;
   }
 
   .titleprincipal {
@@ -582,26 +584,17 @@ figcaption {
   .inline_articles_aside {
     flex-wrap: wrap;
   }
-  
-  .activitycity {
-    margin-top: 30px;
-  }
+
   /* ASIDE */
 
   /* SECTION ACTIVITY */
   .boxactivites_1, .boxactivites_2,  .boxactivites_3,  .boxactivites_4,   .boxactivites_5, .boxactivites_6 {
     width: 40vw;
-    height: 32vw;
-    margin-top: 50px;
-  }
-
-  .boxactivity_a , .boxactivites_b , .boxactivity_c , .boxactivity_d , .boxactivity_e, .boxactivity_f {
-    width: 40vw;
-    height: 32vw;
+    margin-top: 35px;
   }
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 205px;
+    height: 170px;
   }
 
   .boxactivity_f {
@@ -612,9 +605,24 @@ figcaption {
     padding: 0px 0px 0px 15px;
   }
 
+  .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
+    width: 65vw;
+    height: 35vw;
+  }
+
+  .boxactivites_1 {
+    margin-bottom: 30px;
+  }
+
+  .boxactivites_2 {
+    margin-top: 0;
+  }
+
   .sectionsactivity {
     display: inline-block;
+    margin: 0px 0px 100px 50px;
   }
+
  /* MAIN */
  
  /* FOOTER */
@@ -723,7 +731,7 @@ figcaption {
   }
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 240px;
+    height: 225px;
   }
 
   .h3boxactivty {
@@ -759,6 +767,13 @@ figcaption {
     margin-right: 25px !important;
   }
   /* SECTION HEBERGEMENT */
+
+  /* SECTION ACTIVITY */
+  .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
+    height: 250px;
+  }
+  /* SECTION ACTIVITY */
+
 }
 
 @media (min-width: 800px) and (max-width: 1280px) {
@@ -784,6 +799,18 @@ figcaption {
     width: 360px;
   }
   /* SECTION HEBERGEMENT */
+
+  /* SECTION ACTIVITY */
+  .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
+    height: 317px;
+  }
+
+  .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
+    width: 65vw;
+    height: 35vw;
+  }
+  /* SECTION ACTIVITY */
+
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
