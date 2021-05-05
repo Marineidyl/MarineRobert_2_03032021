@@ -19,7 +19,7 @@ main {
 footer {
   display: flex;
   background-color: #f2f2f2;
-  padding: 0 150px;
+  padding: 0px 0px 0px 0px;
 }
 
   /* HEADER */
@@ -491,7 +491,7 @@ figcaption {
 }
 
 .hebergementsfooter {
-  padding-inline: 400px;
+  padding-inline: 350px;
 }
 /* FOOTER */
 
