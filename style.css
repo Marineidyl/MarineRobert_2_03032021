@@ -999,11 +999,20 @@ figcaption {
     font-size: 14px;
   }
 
-  .starspopularityaside {
-    margin: 47px 0px 0px 0px;
+  .starspopularityaside > i {    
+    margin: 0;
+    padding: 0px 25px 0px 0px;
+  }
+
+  .greystar > i {
+    margin: 0;
+    padding: 0px 25px 0px 0px;
   }
   /* ICONS */
-
+  .starspopularityaside {
+    margin: 0;
+  }
+  
   .wrapper {
     margin-left: 30px;
     margin-right: 30px;
@@ -1052,8 +1061,8 @@ figcaption {
   }
 
   .imagepopularity {
-    height: 180px;
-    width: 105px;
+    height: 145px;
+    width: 130px;
   }
   /* ASIDE */
 
