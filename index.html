@@ -18,8 +18,8 @@
             <nav>
                 <ul class="navbar">
                     <div class="categoriesnavbar">
-                        <li><a href="#" class="hebergement" data-active="true">Hébergements</a></li>
-                        <li><a href="#" class="activity" data-active="false">Activités</a></li>
+                        <li><a href="#" class="hebergement">Hébergements</a></li>
+                        <li><a href="#" class="activity">Activités</a></li>
                     </div>
                     <li><b><a href="#" class="inscription">S'inscrire</a></b></li>    
                 </ul>
@@ -38,8 +38,10 @@
                 <div class="search">
                     <span id="mapmarker"><i class="fas fa-map-marker-alt"></i></span>
                     <input id="searchfield" type="search" placeholder="Ex Marseille, France"/>
-                    <button id="searchbutton" type="submit" value="Rechercher">Rechercher</button>
-                    <i class="searchiconphone fas fa-search" aria-hidden="true"></i>
+                    <button id="searchbutton">
+                        <span id="searchtitle">Rechercher</span> 
+                        <i class="iconsearch fas fa-search" aria-hidden="true"></i>
+                    </button>
                 </div>
             </section>
 <!-- SEARCH -->

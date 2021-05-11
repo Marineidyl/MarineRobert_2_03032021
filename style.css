@@ -142,6 +142,10 @@ nav ul li {
   cursor: pointer;
 }
 
+.iconsearch {
+  display: none !important;
+}
+
 .icondesign {
   color:blue;
   background-color: #deebff;
@@ -879,13 +883,11 @@ figcaption {
 
   /* STRUCTURE */
   body {
-    background-color: coral;
     margin: 0;
   }
   /* STRUCTURE */
 
   /* HEADER */  
-
   /* LOGO */
   .logo {
     margin-left: 25px;
@@ -894,6 +896,14 @@ figcaption {
   /* LOGO */
 
   /* NAVBAR */
+  a.hebergement:hover {
+    border-bottom: solid 2.5px #0065fc;
+  }
+
+  nav ul li:hover {
+    border-top: none;
+  }
+
   nav ul {
     flex-wrap: wrap-reverse;
   }
@@ -942,6 +952,14 @@ figcaption {
   /* FILTER */
 
   /* ICONS */
+  .fa-search::before {
+    content: "\f002";
+  }
+
+  #searchtitle {
+    display: none;
+  }
+
   #iconeinfo {
     font-size: 14px;
   }
@@ -1049,7 +1067,11 @@ figcaption {
   }
 
   .apropos {
-    margin-left: -40px;
+    margin-left: 0px;
+  }
+
+  footer {
+    flex-direction: column;
   }
   /* FOOTER */
 }
