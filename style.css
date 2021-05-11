@@ -896,9 +896,6 @@ figcaption {
   /* LOGO */
 
   /* NAVBAR */
-  a.hebergement:hover {
-    border-bottom: solid 2.5px #0065fc;
-  }
 
   nav ul li:hover {
     border-top: none;
@@ -908,15 +905,41 @@ figcaption {
     flex-wrap: wrap-reverse;
   }
 
-  .activity , .hebergement {
+  .activity {
+    margin: 0;
+    padding: 0px 75px 15px 75px;
+  }
+
+  a.hebergement:hover {
+    border-bottom: solid 2.5px #0065fc;
+  }
+  
+  .hebergement {
     border-bottom-color: #0065FC !important;
+    margin: 0px 0px 0px -230px;
+    color: blue;
   }
 
   .categoriesnavbar {
     display: flex;
-    margin: 15px 0px 0px -125px;
+    margin: 20px 0px 0px 0px;
   }
 
+  .categoriesnavbar1 {
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+    padding: 0px 50px 15px 70px;
+  }
+
+  .categoriesnavbar2 {
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+    border-bottom-color: rgb(242, 242, 242);
+    border-bottom-color: rgb(242, 242, 242);
+    width: 10em !important;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
   /* NAVBAR */
   /* SEARCH */
   .titleprincipal {
@@ -968,6 +991,7 @@ figcaption {
     margin: 47px 0px 0px 0px;
   }
   /* ICONS */
+
   .wrapper {
     margin-left: 30px;
     margin-right: 30px;
