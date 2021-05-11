@@ -299,13 +299,17 @@ i {
 
 .starspopularityaside {
   color: #0065fc;
-  display: flex;
-  letter-spacing: -20px !important;
-  margin: 70px 0px 0px 0px;
+  margin: 0;
+  padding: 0px 25px 0px 0px;
+}
+
+.starsend {
+  padding: 60px 0px 0px 0px;
 }
 
 .greystar {
   color: #cacaca;
+  margin: 0;
 }
 
 #iconpopularitytitle {
@@ -1000,8 +1004,7 @@ figcaption {
   }
 
   .starspopularityaside > i {    
-    margin: 0;
-    padding: 0px 25px 0px 0px;
+    padding: 0 !important;
   }
 
   .greystar > i {
@@ -1011,6 +1014,10 @@ figcaption {
   /* ICONS */
   .starspopularityaside {
     margin: 0;
+  }
+
+  .starsend {
+    padding: 0 !important;
   }
   
   .wrapper {
@@ -1061,8 +1068,8 @@ figcaption {
   }
 
   .imagepopularity {
+    width: 125px;
     height: 145px;
-    width: 130px;
   }
   /* ASIDE */
 
