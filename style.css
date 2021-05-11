@@ -142,6 +142,10 @@ nav ul li {
   cursor: pointer;
 }
 
+#searchtitle {
+  display: block;
+}
+
 .iconsearch {
   display: none !important;
 }
@@ -981,6 +985,10 @@ figcaption {
 
   #searchtitle {
     display: none;
+  }
+
+  .iconsearch {
+    display: block !important;
   }
 
   #iconeinfo {
