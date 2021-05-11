@@ -34,6 +34,10 @@ nav ul {
   display: flex;
 }
 
+.categoriesnavbar1 {
+  margin: 0px 65px 0 0;
+}
+
 .logo {
   margin-left: 50px;
   width: 100px;
@@ -924,7 +928,7 @@ figcaption {
     color: blue;
   }
 
-  .categoriesnavbar {
+  .categoriesnavbar{
     display: flex;
     margin: 20px 0px 0px 0px;
   }
