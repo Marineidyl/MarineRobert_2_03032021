@@ -240,6 +240,7 @@ i {
 
 .description_hebergement {
   display: inline-block;
+  margin-inline: 15px;
 }
 
 .imageshebergements {
@@ -294,17 +295,13 @@ i {
 
 .starspopularityaside {
   color: #0065fc;
-  margin: 0;
-  padding: 0px 25px 0px 0px;
-}
-
-.starsend {
-  padding: 60px 0px 0px 0px;
+  display: flex;
+  letter-spacing: -20px !important;
+  margin: 60px 0px 0px 0px;
 }
 
 .greystar {
   color: #cacaca;
-  margin: 0;
 }
 
 #iconpopularitytitle {
