@@ -35,7 +35,7 @@ nav ul {
 }
 
 .categoriesnavbar1 {
-  margin: 0px 65px 0 0;
+  margin: 0;
 }
 
 .logo {
@@ -244,6 +244,7 @@ i {
 
 .description_hebergement {
   display: inline-block;
+  margin-inline: 15px;
 }
 
 .imageshebergements {
@@ -511,6 +512,7 @@ figcaption {
 
 .hebergementsfooter {
   padding: 0px;
+  margin: 0px 400px 0px 325px;
 }
 /* FOOTER */
 
@@ -774,10 +776,12 @@ figcaption {
 
   footer {
     overflow: hidden;
-    margin: 100px 0px 5px -35px;
     justify-content:space-around;
   }
 
+  .hebergementsfooter {
+    margin: 0px 100px 0px 0px !important;
+  }
   .logo {
     width: 100px;
   }
@@ -914,38 +918,41 @@ figcaption {
 
   .activity {
     margin: 0;
-    padding: 0px 75px 15px 75px;
+    padding: 0px 0px 0px 50px;
   }
 
   a.hebergement:hover {
     border-bottom: solid 2.5px #0065fc;
   }
   
-  .hebergement {
+  .hebergement:hover {
     border-bottom-color: #0065FC !important;
-    margin: 0px 0px 0px -230px;
     color: blue;
   }
 
-  .categoriesnavbar{
-    display: flex;
-    margin: 20px 0px 0px 0px;
+  .activity:hover {
+    border-bottom-color: #0065FC !important;
+    color: blue;
+  }
+
+  .hebergement {
+    margin: 0px 0px 0px -230px;
   }
 
   .categoriesnavbar1 {
-    border-top: none;
+    border-top: none !important;
     border-bottom: 3px solid #F2F2F2;
-    padding: 0px 50px 15px 70px;
+    padding: 35px 85px 0px 35px;
+    width: 50% !important;
   }
 
   .categoriesnavbar2 {
     border-top: none;
     border-bottom: 3px solid #F2F2F2;
     border-bottom-color: rgb(242, 242, 242);
-    border-bottom-color: rgb(242, 242, 242);
-    width: 10em !important;
-    justify-content: center;
+    width: 50% !important;
     padding-bottom: 15px;
+    padding-top: 35px;
   }
   /* NAVBAR */
   /* SEARCH */
@@ -1111,6 +1118,7 @@ figcaption {
   /* FOOTER */
   .hebergementsfooter {
     padding: 0px;
+    margin: 0px !important;
   }
 
   .apropos {
