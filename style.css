@@ -669,9 +669,21 @@ figcaption {
   }
   /* STRUCTURE */
 
+  /* LOGO */
+  .logo {
+    margin: 20px 0px 0px 50px;
+  }
+
   /* HEADER */
-  nav ul {
-    margin: -5px 30px 40px 0px !important;
+    nav ul li {
+    padding: 38px 30px 0 30px !important;
+    margin: 10px 0px 0px 0px !important;
+  }
+
+  .hebergement:hover , .activity:hover{
+    border-top-color: #0065FC !important;
+    border-top: solid 2.5px #0065fc;
+    color: blue;
   }
 
   .titleprincipal {
@@ -917,13 +929,7 @@ figcaption {
     padding: 0px 0px 0px 50px;
   }
 
-  .hebergement:hover {
-    border-bottom-color: #0065FC !important;
-    border-bottom: solid 2.5px #0065fc;
-    color: blue;
-  }
-
-  .activity:hover {
+  .hebergement:hover , .activity:hover{
     border-bottom-color: #0065FC !important;
     border-bottom: solid 2.5px #0065fc;
     color: blue;
