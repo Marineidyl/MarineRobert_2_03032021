@@ -244,7 +244,6 @@ i {
 
 .description_hebergement {
   display: inline-block;
-  margin-inline: 15px;
 }
 
 .imageshebergements {
@@ -511,7 +510,7 @@ figcaption {
 }
 
 .hebergementsfooter {
-  padding-inline: 350px;
+  padding: 0px;
 }
 /* FOOTER */
 
@@ -656,7 +655,7 @@ figcaption {
   }
 
   .hebergementsfooter {
-    padding-inline: 75px;
+    padding: 0px;
   }
  /* FOOTER */
 }
@@ -785,10 +784,6 @@ figcaption {
 
   nav ul {
     margin: -10px 30px 40px 0px !important;
-  }
-
-  .hebergementsfooter {
-    padding-inline: 180px;
   }
 
   .apropos{
@@ -1115,7 +1110,7 @@ figcaption {
 
   /* FOOTER */
   .hebergementsfooter {
-    padding-inline: 0;
+    padding: 0px;
   }
 
   .apropos {
@@ -1127,8 +1122,5 @@ figcaption {
   }
   /* FOOTER */
 }
-  
-/* CSS */
-
 /* MEDIA QUERIES */
 
