@@ -390,14 +390,6 @@ aside {
   flex-direction: column;
 }
 
-.boxactivity_b {
-  width: 21vw;
-  height: 50%;
-  padding: 0;
-  margin: 0;
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
-  border-radius: 30px;
-}
 
 .boxactivity_f {
   margin: 0;
