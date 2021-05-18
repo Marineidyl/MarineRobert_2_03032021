@@ -240,7 +240,7 @@ i {
 
 .description_hebergement {
   display: inline-block;
-  margin-inline: 15px;
+  margin: 0px 0px 0px 15px;
 }
 
 .imageshebergements {
@@ -289,14 +289,14 @@ i {
 .starspopularity {
   color: #0065fc;
   display: flex;
-  letter-spacing: -20px !important;
+  letter-spacing: -20px;
   margin: -25px 0px 0px -15px;
 }
 
 .starspopularityaside {
   color: #0065fc;
   display: flex;
-  letter-spacing: -20px !important;
+  letter-spacing: -20px;
   margin: 60px 0px 0px 0px;
 }
 
@@ -516,7 +516,7 @@ figcaption {
 
   /* STRUCTURE */
   header, body, html {
-    overflow-x: hidden !important;
+    overflow-x: hidden;
   }
   body {
     margin: 0;
@@ -526,27 +526,30 @@ figcaption {
     margin-top: 20px;
   }
   /* STRUCTURE */
+    /* NAVBAR */
 
     /* LOGO */
     .logo {
-    width: 100%;
+    width: 25%;
     height: 40px;
+    margin-top: 10px;
     }
     /* LOGO */
 
   /* HEADER */
+      /* NAVBAR */
   nav ul {
     font-size: 16px;
     display: flex;
     margin: -10px 15px 40px 0px;
   }
-
-  .titleprincipal {
-    font-size: 1.5em;
-  }
+    /* NAVBAR */
   /* HEADER */
 
   /* MAIN */
+  .titleprincipal {
+    font-size: 1.5em;
+  }
     /* FILTER */
   #economy, #familial, #animals, #romantic {
     display: flex;
@@ -841,7 +844,12 @@ figcaption {
 
 
 @media (min-width: 1024px) and (max-width: 1366px) {
-  
+
+/* MAIN */
+  main {
+    margin: 50px 50px 50px 50px; 
+  }
+
   /* SECTION HEBERGEMENT */
   .wrapper {
     margin-left: 40px !important;
@@ -872,8 +880,12 @@ figcaption {
   footer {
     padding: 0 !important;
   }
-  /* FOOTER */
 
+  .marginfooter {
+    margin: 20px 0px 0px 40px;
+  }
+  /* FOOTER */
+/* MAIN */
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -903,30 +915,23 @@ figcaption {
   /* STRUCTURE */
 
   /* HEADER */  
-  /* LOGO */
+    /* LOGO */
   .logo {
     margin-left: 25px;
     margin-top: 20px;
   }
-  /* LOGO */
+    /* LOGO */
 
-  /* NAVBAR */
-
+    /* NAVBAR */
+  nav ul {
+    flex-wrap: wrap-reverse;
+  }
+  
   nav ul li:hover {
     border-top: none;
   }
 
-  nav ul {
-    flex-wrap: wrap-reverse;
-  }
-
-  .activity {
-    margin: 0;
-    padding: 0px 0px 0px 50px;
-  }
-
   .hebergement:hover , .activity:hover{
-    border-bottom-color: #0065FC !important;
     border-bottom: solid 2.5px #0065fc;
     color: blue;
   }
@@ -935,22 +940,30 @@ figcaption {
     margin: 0px 0px 0px -230px;
   }
 
+  .activity {
+    margin: 0;
+    padding: 0px 0px 0px 50px;
+  }
+
   .categoriesnavbar1 {
-    border-top: none !important;
+    border-top: none;
     border-bottom: 3px solid #F2F2F2;
     padding: 35px 85px 0px 35px;
-    width: 50% !important;
+    width: 50%;
   }
 
   .categoriesnavbar2 {
     border-top: none;
     border-bottom: 3px solid #F2F2F2;
     border-bottom-color: rgb(242, 242, 242);
-    width: 50% !important;
+    width: 50%;
     padding-bottom: 15px;
     padding-top: 35px;
   }
   /* NAVBAR */
+/* HEADER */
+
+/* MAIN */
   /* SEARCH */
   .titleprincipal {
     font-size: 21px;
@@ -998,30 +1011,28 @@ figcaption {
   }
 
   .starspopularityaside > i {    
-    padding: 0 !important;
+    padding: 0;
   }
 
   .greystar > i {
     margin: 0;
     padding: 0px 25px 0px 0px;
   }
-  /* ICONS */
+
   .starspopularityaside {
     margin: 0;
+    letter-spacing: 5px;
   }
-
-  .starsend {
-    padding: 0 !important;
-  }
+  /* ICONS */
   
+  /* HEBERGEMENT */
   .wrapper {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 16px 0px -20px -25px;
   }
 
   .boxhebergements {
-    width: 245px !important;
-    height: 230px;
+    margin: 0px 0px 25px 0px;
+    width: 350px !important;
   }
 
   .inline_articles_aside {
@@ -1036,25 +1047,30 @@ figcaption {
   }
 
   #hebergements {
-    margin: 20px 0px 25px 35px;
+    margin: 20px 0px 25px 0px;
   }
 
   .containerarticles {
-    width: 100%;
-    margin: 25px 0 0 0;
+    width: 25em;
+    margin: 25px 0px 0px 0px;
+    background-color: white;
   }
 
   .articleshebergements {
     flex-wrap: nowrap;
+    background-color: white;
   }
+    /* HEBERGEMENT */
 
-  /* ASIDE */
+    /* ASIDE */  
   aside {
-    width: 100%;
+    width: 26em;
+    margin: 0 0 0 -50px;
+    border-radius: 0;
   }
 
   .h2_popularity {
-    margin: 35px 0px 20px 5px;
+      margin: 35px 0px 20px 20px;
   }
 
   .articlespopularity {
@@ -1065,9 +1081,18 @@ figcaption {
     width: 125px;
     height: 145px;
   }
-  /* ASIDE */
 
-  /* SECTION ACTIVITY */
+  .blocpopularity {
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+
+  .more {
+    margin: 0px 0px 0px 0px;
+  }
+    /* ASIDE */
+
+    /* SECTION ACTIVITY */
   .activitycity {
     margin: 35px 0px 85px 0;
   }
@@ -1083,8 +1108,8 @@ figcaption {
     height: 65vw;
   }
 
-  .boxactivity_f {
-    margin: 0 !important ;
+  .boxactivity_f , .boxactivity_c {
+    margin: 0;
   }
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
@@ -1096,21 +1121,17 @@ figcaption {
     padding: 0px 0px 0px 15px;
   }
 
-  .boxactivity_c {
-    margin: 0 !important;
-  }
-
   .sectionsactivity {
     display: inline-block;
     padding-left: 25px;
     margin: -35px 0px 0px -25px;
   }
-  /* SECTION ACTIVITY */
+    /* SECTION ACTIVITY */
 
-  /* FOOTER */
+    /* FOOTER */
   .hebergementsfooter {
     padding: 0px;
-    margin: 0px !important;
+    margin: 0px;
   }
 
   .apropos {
@@ -1120,7 +1141,8 @@ figcaption {
   footer {
     flex-direction: column;
   }
-  /* FOOTER */
+    /* FOOTER */
+/* MAIN */
 }
 /* MEDIA QUERIES */
 
