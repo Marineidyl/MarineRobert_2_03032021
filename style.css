@@ -223,8 +223,8 @@ i {
 }
 
 .boxhebergements {
-  width: 315px;
-  height: 280px;
+  width: 320px;
+  height: 315px;
   background-color: white;
   border-radius: 25px;
   padding: 6px;
@@ -247,8 +247,8 @@ i {
 .imageshebergements {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 55% !important;
   object-fit: cover;
 }
 
@@ -502,7 +502,6 @@ figcaption {
 /* FOOTER */
 
 /* MEDIA QUERIES */
-
 /* Small devices (phones and up) */
 @media only screen and (min-width: 200px) { 
   body {
@@ -534,7 +533,7 @@ figcaption {
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) { 
   body {
-    background-color: rgb(214, 170, 255);
+    background-color: rgb(226, 215, 236);
       width: 100%;
   }
 }
