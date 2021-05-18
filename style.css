@@ -834,13 +834,13 @@ figcaption {
   }
 }
 
-
 @media (min-width: 1024px) and (max-width: 1366px) {
-
-/* MAIN */
+  /* STRUCTURE */
   main {
-    margin: 50px 50px 50px 50px; 
+    margin: 50px 0 50px 50px !important;
   }
+  /* STRUCTURE */
+
 
   /* SECTION HEBERGEMENT */
   .wrapper {
@@ -891,13 +891,11 @@ figcaption {
     margin: 0;
   }
   /* STRUCTURE */
-  
 }
 /* TABLETS */
 
 
 /* PHONE */
-
 @media (min-width: 414px) and (max-width: 736px) {
 
   /* STRUCTURE */
@@ -1013,7 +1011,7 @@ figcaption {
 
   .starspopularityaside {
     margin: 0;
-    letter-spacing: 5px;
+    letter-spacing: 5px !important;
   }
   /* ICONS */
   
@@ -1133,8 +1131,14 @@ figcaption {
   footer {
     flex-direction: column;
   }
+
+  .marginfooter {
+    margin: 10px 0px 0px 40px;
+  }
     /* FOOTER */
 /* MAIN */
 }
+/* 4K */
+
 /* MEDIA QUERIES */
 
