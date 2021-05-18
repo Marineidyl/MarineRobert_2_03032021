@@ -289,14 +289,14 @@ i {
 .starspopularity {
   color: #0065fc;
   display: flex;
-  letter-spacing: -20px !important;
+  letter-spacing: -20px;
   margin: -25px 0px 0px -15px;
 }
 
 .starspopularityaside {
   color: #0065fc;
   display: flex;
-  letter-spacing: -20px !important;
+  letter-spacing: -20px;
   margin: 60px 0px 0px 0px;
 }
 
@@ -511,12 +511,15 @@ figcaption {
 
 /* MEDIA QUERIES */
 
+
+
+
 /* TABLETS */
 @media (min-width: 600px) and (max-width: 960px) {
 
   /* STRUCTURE */
   header, body, html {
-    overflow-x: hidden !important;
+    overflow-x: hidden;
   }
   body {
     margin: 0;
@@ -526,27 +529,30 @@ figcaption {
     margin-top: 20px;
   }
   /* STRUCTURE */
+    /* NAVBAR */
 
     /* LOGO */
     .logo {
-    width: 100%;
+    width: 25%;
     height: 40px;
+    margin-top: 10px;
     }
     /* LOGO */
 
   /* HEADER */
+      /* NAVBAR */
   nav ul {
     font-size: 16px;
     display: flex;
     margin: -10px 15px 40px 0px;
   }
-
-  .titleprincipal {
-    font-size: 1.5em;
-  }
+    /* NAVBAR */
   /* HEADER */
 
   /* MAIN */
+  .titleprincipal {
+    font-size: 1.5em;
+  }
     /* FILTER */
   #economy, #familial, #animals, #romantic {
     display: flex;
@@ -839,7 +845,6 @@ figcaption {
   }
 }
 
-
 @media (min-width: 1024px) and (max-width: 1366px) {
   /* STRUCTURE */
   main {
@@ -878,8 +883,12 @@ figcaption {
   footer {
     padding: 0 !important;
   }
-  /* FOOTER */
 
+  .marginfooter {
+    margin: 20px 0px 0px 40px;
+  }
+  /* FOOTER */
+/* MAIN */
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -893,7 +902,6 @@ figcaption {
     margin: 0;
   }
   /* STRUCTURE */
-  
 }
 /* TABLETS */
 
@@ -1141,5 +1149,7 @@ figcaption {
     /* FOOTER */
 /* MAIN */
 }
+/* 4K */
+
 /* MEDIA QUERIES */
 
