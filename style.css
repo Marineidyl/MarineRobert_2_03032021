@@ -199,21 +199,17 @@ i {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 55em;
 }
 
 #hebergements {
-  margin: 40px 0px 30px 50px;
+  margin: 30px 0px 30px 30px;
 }
 
 .articleshebergements {
-  background-color: #f2f2f2;
-  border-radius: 25px;
-  width: 100%;
   display: flex;
   flex-direction: column-reverse;
-  flex-wrap: wrap;
+  margin: 0px 30px 0px 30px;
 }
 
 .more {
@@ -222,15 +218,12 @@ i {
 }
 
 .boxhebergements {
-  width: 315px;
-  height: 280px;
+  width: 265px;
+  height: 215px;
   background-color: white;
   border-radius: 25px;
-  padding: 6px;
-  margin: 10px 0 25px 0;
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
-  display: flex;
-  flex-direction: column;
+  margin: 0px 0px 15px 0px;
+  box-shadow: 4px 2px 20px rgb(201 201 201);
 }
 
 .boxhebergements:hover {
@@ -246,9 +239,10 @@ i {
 .imageshebergements {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
-  height: 100%;
+  width: 255px;
+  height: 125px;
   object-fit: cover;
+  margin: 5px 5px 0px 5px;
 }
 
 .containerarticles {
@@ -313,7 +307,7 @@ i {
 .inline_articles_aside {
   display: flex;
   justify-content: space-between;
-  margin-top: 25px;
+  width: 100%;
 }
 /* ASIDE  */
 aside {
