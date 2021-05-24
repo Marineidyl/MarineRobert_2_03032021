@@ -343,7 +343,7 @@ aside {
 
 /*SECTION ACTIVITIES*/
 .titleactivity {
-  margin-top: 10px;
+  margin: 10px 0px 0px 0px;
 }
 
 .boxactivity_2 {
@@ -352,21 +352,22 @@ aside {
 }
 
 .boxactivites_b {
-  margin: 0px 20px 5px 20px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
-  width: 90%;
-  height: 24em;
+  width: 100%;
+  height: 17em;
+  margin: 0px 20px 35px 0px;
 }
 
 .boxactivites_2, .boxactivites_4 {
   display: flex;
   flex-direction: column;
-  width: 100%
+  width: 95%;
+  margin: 0;
 }
 
 .activitycity {
-  margin: 65px 30px 30px 30px;
+  margin: 50px 0px 55px 0px;
 }
 
 .boxactivites_1, .boxactivites_3 {
@@ -385,22 +386,23 @@ aside {
 }
 
 .boxactivity_f {
-  margin: 128px 0px 0px 15px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 30px;
   width: 100%;
-  height: 27em;
+  height: 17em;
+  margin: 0;
 }
 
 .boxactivity_c {
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
-  margin: 0px 20px 0px 20px;
+  margin: 0;
+  height: 13em;
 }
 
 .boxactivity_e {
   width: 100%;
-  margin: 0 0px 0px 15px;
+  margin: 0px 20px 30px 0px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
 }
@@ -409,16 +411,15 @@ aside {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 20em;
+  height: 13em;
   object-fit: cover;
-  margin: 0px 20px 0px 0px;
 }
 
 .imgactivity6 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 23em;
+  height: 13em;
   object-fit: cover;
 }
 
@@ -427,30 +428,30 @@ aside {
   border-top-right-radius: 15px;
   object-fit: cover;
   width: 100%;
-  height: 15em;
-  margin: 0 0px 0px 0px;
+  height: 9em;
+  margin: 0px 0px 0px 0px;
 }
 
 .imgactivity5 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
   object-fit: cover;
   width: 100%;
-  height: 15em;
+  height: 10em;
 }
 
 .sectionsactivity {
-  margin: 30px 15px 0em 0px;
+  margin: 30px 15px 0px 0px;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
 .boxactivity_a , .boxactivity_d {
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 30px;
-  margin: 0;
+  margin: 0px 25px 0px 0px;
+  height: 32em;
 }
 
 .imgactivity1 , .imgactivity4 {
@@ -458,11 +459,11 @@ aside {
   border-top-right-radius: 15px;
   object-fit: cover;
   width: 100%;
-  height: 50em;
+  height: 28em;
 }
 
 .h3boxactivty {
-  padding: 0px 0px 0px 115px;
+  padding: 0px 0px 0px 35px;
 }
 
 /* FOOTER */
