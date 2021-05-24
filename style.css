@@ -7,8 +7,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
-  margin: 0 auto;
+  margin: auto;
+  max-width: 1550px;
 }
 
 main {
