@@ -210,7 +210,7 @@ i {
 }
 
 .info {
-  margin: 35px 0px 0px 0px;
+  margin: 35px 0px 35px 0px;
 }
 
 #economy, #familial, #animals, #romantic{
@@ -256,7 +256,7 @@ i {
 }
 
 .more {
-  margin: 55px 0px 5px 0px;
+  margin: 35px 0px 5px 0px;
   font-size: 20px;
 }
 
@@ -265,7 +265,7 @@ i {
   height: 215px;
   background-color: white;
   border-radius: 25px;
-  margin: 0px 0px 15px 0px;
+  margin: 0px 0px 25px 0px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
 }
 
@@ -352,26 +352,27 @@ aside {
 }
 
 .boxactivites_b {
-  width: 21vw;
-  padding: 0;
-  margin: 0;
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  margin: 0px 20px 5px 20px;
+  box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
-  height: 17vw;
+  width: 90%;
+  height: 24em;
 }
 
 .boxactivites_2, .boxactivites_4 {
   display: flex;
   flex-direction: column;
+  width: 100%
 }
 
 .activitycity {
-  margin-top: 65px;
+  margin: 65px 30px 30px 30px;
 }
 
 .boxactivites_1, .boxactivites_3 {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .boxactivity_b {
@@ -384,27 +385,23 @@ aside {
 }
 
 .boxactivity_f {
-  margin: 0;
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  margin: 128px 0px 0px 15px;
+  box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 30px;
-  margin-top: 44px;
-  width: 25vw;
+  width: 100%;
+  height: 27em;
 }
 
 .boxactivity_c {
-  width: 21vw;
-  padding: 0;
-  margin: 0;
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
-  margin-top: 32px;
-  height: 12vw;
+  margin: 0px 20px 0px 20px;
 }
 
 .boxactivity_e {
-  width: 25vw;
-  margin: 0;
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  width: 100%;
+  margin: 0 0px 0px 15px;
+  box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
 }
 
@@ -412,24 +409,26 @@ aside {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 281px;
+  height: 20em;
   object-fit: cover;
+  margin: 0px 20px 0px 0px;
 }
 
 .imgactivity6 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 246px;
+  height: 23em;
   object-fit: cover;
 }
 
 .imgactivity3 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
-  height: 184px;
   object-fit: cover;
+  width: 100%;
+  height: 15em;
+  margin: 0 0px 0px 0px;
 }
 
 .imgactivity5 {
@@ -437,19 +436,18 @@ aside {
   border-top-right-radius: 15px;
   width: 100%;
   object-fit: cover;
-  height: 203px;
+  width: 100%;
+  height: 15em;
 }
 
 .sectionsactivity {
-  margin: 0px 0px 50px 0px;
+  margin: 30px 15px 0em 0px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  height: 42em;
+  width: 100%;
 }
 
 .boxactivity_a , .boxactivity_d {
-  width: 420px;
   box-shadow: 4px 2px 20px rgb(201, 201, 201);
   border-radius: 30px;
   margin: 0;
@@ -458,18 +456,13 @@ aside {
 .imgactivity1 , .imgactivity4 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
-  height: 542px;
   object-fit: cover;
-}
-
-figcaption {
-  padding: 10px 0px 0px 0px;
-  display: ruby-text;
+  width: 100%;
+  height: 50em;
 }
 
 .h3boxactivty {
-  padding: 0px 0px 0px 45px;
+  padding: 0px 0px 0px 115px;
 }
 
 /* FOOTER */
