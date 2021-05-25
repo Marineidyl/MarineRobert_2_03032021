@@ -31,8 +31,16 @@ nav ul {
   font-size: 20px;
 } 
 
-.categoriesnavbar1 {
+.hebergement_activity {
+  display: flex;
+}
+
+.hebergement {
   margin: 0;
+}
+
+a.titlehebergement {
+  margin: 0 50px 0px 0;
 }
 
 .logo {
@@ -65,7 +73,7 @@ a.activity:hover {
   color: blue;
 }
 
-nav ul li:hover {
+.hebergement:hover {
   border-top: solid 2.5px #0065fc;
 }
 
@@ -97,14 +105,14 @@ nav ul li {
   color: #0065fc;
   display: flex;
   letter-spacing: -20px;
-  margin: -25px 0px 0px -15px;
+  margin: 0;
 }
 
 .starspopularityaside {
   color: #0065fc;
   display: flex;
   letter-spacing: -20px;
-  margin: 50px 0px 0px 0px;
+  margin: 0;
 }
 
 .greystar {
@@ -255,6 +263,14 @@ i {
   margin: 0px 30px 0px 30px;
 }
 
+.descriptionhebergement {
+  margin: 0px 60px 0px 0px;
+}
+
+.paragraphehebergements {
+  margin: 5px 0px 0px 15px;
+}
+
 .more {
   margin: 35px 0px 5px 0px;
   font-size: 20px;
@@ -272,11 +288,6 @@ i {
 .boxhebergements:hover {
   transform: scale(1.05);
   transition: 0.4s;
-}
-
-.description_hebergement {
-  display: inline-block;
-  margin: 0px 0px 0px 15px;
 }
 
 .imageshebergements {
@@ -306,7 +317,7 @@ i {
 }
 
 h4.cannebiere, h4.port, h4.mouettes, h4.mer, h4.lepannier, h4.amina {
-  margin: 0;
+  margin: 0 0 0 15px;
 }
 
 /* ASIDE  */
@@ -314,6 +325,10 @@ aside {
   background-color: #f2f2f2;
   border-radius: 25px;
   width: 33%;
+}
+
+.descriptionpopularity {
+  padding: 5px 5px 5px 0;
 }
 
 .h2_popularity {
@@ -682,14 +697,14 @@ aside {
     padding: 0px 0px 0px 50px;
   }
 
-  .categoriesnavbar1 {
+  .hebergement {
     border-top: none;
     border-bottom: 3px solid #F2F2F2;
     padding: 35px 85px 0px 35px;
     width: 50%;
   }
 
-  .categoriesnavbar2 {
+  .activity {
     border-top: none;
     border-bottom: 3px solid #F2F2F2;
     border-bottom-color: rgb(242, 242, 242);
