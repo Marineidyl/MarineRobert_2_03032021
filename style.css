@@ -40,8 +40,8 @@ nav ul {
   margin: 0;
 }
 
-a.titlehebergement {
-  margin: 0 50px 0px 0;
+.titlehebergement {
+  padding: 36px 30px 0 30px;
 }
 
 .logo {
@@ -74,12 +74,16 @@ a.activity:hover {
   color: blue;
 }
 
-.hebergement:hover {
+.titlehebergement:hover , .titleactivity:hover , .liinscription:hover {
   border-top: solid 2.5px #0065fc;
 }
 
 nav ul li {
   padding: 38px 30px 0 30px;
+}
+
+.liinscription {
+  padding: 36px 30px 0 0px;
 }
 
   /*MAIN*/
@@ -368,7 +372,7 @@ aside {
 
 /*SECTION ACTIVITIES*/
 .titleactivity {
-  margin: 10px 0px 0px 0px;
+  padding: 36px 30px 0 30px;
 }
 
 .boxactivity_2 {
@@ -703,10 +707,10 @@ aside {
     border-top: none;
   }
 
-  .hebergement:hover , .activity:hover{
+  /* .titlehebergement:hover , .activity:hover{
     border-bottom: solid 2.5px #0065fc;
     color: blue;
-  }
+  } */
 
   .hebergement {
     margin: 0px 0px 0px -230px;
