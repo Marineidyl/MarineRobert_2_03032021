@@ -2,7 +2,7 @@
 body {
   font-family: "Raleway", sans-serif;
   margin: 0 auto;
-  background-color: firebrick;
+  background-color: #ffffff;
 }
 
 header {
@@ -21,6 +21,7 @@ footer {
   display: flex;
   background-color: #f2f2f2;
   margin: 0 auto;
+  justify-content: center;
 }
 
   /* HEADER */
@@ -491,6 +492,11 @@ aside {
 }
 
 /* FOOTER */
+.categoriesfooter {
+  display: flex;
+  margin: 0 50px 0px 0px;
+}
+
 .marginfooter {
   margin-left: 42px;
 }
@@ -498,14 +504,19 @@ aside {
 .apropos {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
 }
 
 .hebergementsfooter {
-  padding: 0px;
-  margin: 0px 400px 0px 325px;
+  padding: 0px 25em 0px 25em;
+  display: flex;
+  flex-direction: column;
 }
 
+.assistance {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
 
 
