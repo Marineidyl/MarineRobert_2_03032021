@@ -103,16 +103,14 @@ nav ul li {
 
 .starspopularity {
   color: #0065fc;
-  display: flex;
   letter-spacing: -20px;
-  margin: 0;
 }
 
 .starspopularityaside {
   color: #0065fc;
-  display: flex;
+
   letter-spacing: -20px;
-  margin: 0;
+
 }
 
 .greystar {
@@ -327,6 +325,11 @@ aside {
   width: 33%;
 }
 
+.titlepopularities {
+  margin: 0;
+  padding: 15px 0px 0px 180px;
+}
+
 .descriptionpopularity {
   padding: 5px 5px 5px 0;
 }
@@ -344,6 +347,12 @@ aside {
   border-radius: 20px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
   height: 10em;
+  margin: 0 0 15px 0;
+}
+
+.paragraphepopularities {
+  padding: 15px 0px 0px 180px;
+  margin: 0;
 }
 
 .imagespopularities {
