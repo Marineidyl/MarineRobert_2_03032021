@@ -526,15 +526,6 @@ aside {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERIES */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   body {
@@ -756,8 +747,9 @@ aside {
   /* HEADER */  
     /* LOGO */
   .logo {
-    margin-left: 25px;
-    margin-top: 20px;
+    margin: 15px 0 0 0;
+    width: 100px;
+    height: 50px;
   }
     /* LOGO */
 
@@ -770,15 +762,31 @@ aside {
     border-top: none;
   }
 
+  nav ul li {
+    padding: 38px 30px 0 50px;
+}
+
   .hebergement {
-    margin: 0px 0px 0px -230px;
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+    margin: 35px 40px 0px 0px;
+    width: 50%;
   }
+
+  .titlehebergement {
+    padding: 36px 30px 0 30px;
+  } 
 
   .activity {
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+        border-bottom-color: rgb(242, 242, 242);
+    border-bottom-color: rgb(242, 242, 242);
+    width: 50%;
     margin: 0;
-    padding: 0px 0px 0px 50px;
+    padding: 35px 35px 0 35px;
   }
-
+  
   .hebergement {
     border-top: none;
     border-bottom: 3px solid #F2F2F2;
