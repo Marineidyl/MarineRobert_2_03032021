@@ -536,6 +536,49 @@ aside {
 
 
 /* MEDIA QUERIES */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  body {
+    background-color: black;
+  }
+
+  /* SECTION HEBERGEMENTS */
+  .wrapper {
+    width: 38em;
+  }
+
+  /* ASIDE */
+  .descriptionpopularity {
+    padding: 0px 0px 0px 0;
+  }
+
+  .titlepopularities {
+    margin: 0;
+    padding: 0px 0px 0px 0;
+  }
+
+  .paragraphepopularities {
+    padding: 15px 0 0 0;
+    margin: 0;
+  }
+
+  .starspopularityaside { 
+    padding: 45px 0 0 0;
+  }
+
+  .articlespopularity { 
+    margin: 0 0 50px 0;
+  }
+
+  .blocpopularity {
+    margin: 35px 30px 30px 30px;
+  }
+
+  /* FOOTER */
+  .hebergementsfooter {
+    padding: 0px 15em 0px 15em;
+  }
+}
+
 
   /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -706,6 +749,7 @@ aside {
     margin: 0;
     background-color: dimgray;
     overflow-x: hidden;
+    width: 420px;
   }
   /* STRUCTURE */
 
