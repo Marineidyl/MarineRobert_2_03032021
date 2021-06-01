@@ -40,10 +40,6 @@ nav ul {
   margin: 0;
 }
 
-.titlehebergement {
-  padding: 36px 30px 0 30px;
-}
-
 .logo {
   margin-left: 50px;
   width: 100px;
@@ -74,7 +70,7 @@ a.activity:hover {
   color: blue;
 }
 
-.titlehebergement:hover , .titleactivity:hover , .liinscription:hover {
+.titlehebergement:hover , .titleactivity1:hover , .liinscription:hover {
   border-top: solid 2.5px #0065fc;
 }
 
@@ -86,6 +82,13 @@ nav ul li {
   padding: 36px 30px 0 0px;
 }
 
+.titlehebergement {
+  padding: 36px 30px 0 30px;
+}
+
+.titleactivity1 {
+  padding: 36px 30px 0 30px;
+}
   /*MAIN*/
 
 /*ICONES*/
@@ -539,7 +542,9 @@ aside {
   /* STRUCTURE */
   header, body, html {
     overflow-x: hidden;
+    margin: 0px 15px 0px 15px;
   }
+
   body {
     margin: 0;
     background-color: #0065fc;
@@ -597,8 +602,9 @@ aside {
   }
 
   .wrapper {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
   }
 
   #hebergements {
@@ -607,10 +613,16 @@ aside {
   }
 
   .boxhebergements {
-    width: 350px;
-    height: 320px;
-    margin: 10px 15px 10px 65px;
+    width: 545px;
+    height: 415px;
+    margin: 0px 65px 20px 65px;
+    text-align: center;
   }
+
+  .imageshebergements {
+    width: 535px;
+    height: 320px;
+}
   /* SECTION HEBERGEMENT */
 
   /* ASIDE */
@@ -632,7 +644,7 @@ aside {
   }
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 170px;
+    height: 25em;
   }
 
   .boxactivity_f {
@@ -644,10 +656,16 @@ aside {
   }
 
   .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
-    width: 65vw;
-    height: 35vw;
+    width: 40em;
+    height: 30em;
   }
 
+  .boxactivites_b {
+    box-shadow: 4px 2px 20px rgb(201 201 201);
+    border-radius: 20px;
+    height: 17em;
+    margin: 0px 20px 35px 0px;
+  }
   .boxactivites_1 {
     margin-bottom: 30px;
   }
@@ -687,6 +705,7 @@ aside {
   body {
     margin: 0;
     background-color: dimgray;
+    overflow-x: hidden;
   }
   /* STRUCTURE */
 
@@ -706,11 +725,6 @@ aside {
   nav ul li:hover {
     border-top: none;
   }
-
-  /* .titlehebergement:hover , .activity:hover{
-    border-bottom: solid 2.5px #0065fc;
-    color: blue;
-  } */
 
   .hebergement {
     margin: 0px 0px 0px -230px;
@@ -803,7 +817,8 @@ aside {
   
   /* HEBERGEMENT */
   .wrapper {
-    margin: 16px 0px -20px -25px;
+    margin: 0;
+    display: none;
   }
 
   .boxhebergements {
