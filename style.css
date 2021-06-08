@@ -1196,7 +1196,7 @@ aside {
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
     height: 170px;
-    width: 305px !important;
+    width: 305px;
   }
 
   .h3boxactivty {
@@ -1331,11 +1331,7 @@ aside {
     margin: 0;
     width: 22em;
   }
-
-  #searchfield {
-    width: 139px;
-  }
-
+  
   .inscription {
     padding: 0px 0px 0px 45px;
   }
@@ -1873,5 +1869,39 @@ aside {
 @media screen and (min-width: 414px) and (max-width: 736px){
   body {
     background-color: rgb(146, 93, 84);
+  }
+  /* HEADER */
+  .hebergement_activity {
+    width: 412px;
+  }
+
+  /* SECTION ACTIVITES */
+  .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
+    height: 170px;
+    width: 352px;
+  }
+
+  .containerarticles {
+    width: 390px;
+    margin: 21px 0px 0px 11px;
+    background-color: white;
+  }
+
+  /* ASIDE */
+  aside {
+    margin: 0px 0px 0 0px;
+    border-radius: 0;
+    width: 24em;
+    padding: 0 20px;
+  }
+
+  /* FOOTER */
+  .categoriesfooter {
+    flex-direction: column;
+    margin: 0 155px 0px 0px;
+  }
+
+  .apropos {
+    margin: 0;
   }
 }
