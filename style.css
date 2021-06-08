@@ -387,14 +387,14 @@ aside {
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
   width: 100%;
-  height: 17em;
+  height: 15em;
   margin: 0px 20px 35px 0px;
 }
 
 .boxactivites_2, .boxactivites_4 {
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 90%;
   margin: 0;
 }
 
@@ -416,8 +416,8 @@ aside {
 .boxactivity_f {
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 30px;
-  width: 100%;
-  height: 17em;
+  width: 110%;
+  height: 15em;
   margin: 0;
 }
 
@@ -429,10 +429,11 @@ aside {
 }
 
 .boxactivity_e {
-  width: 100%;
+  width: 110%;
   margin: 0px 20px 30px 0px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
+  height: 13em;
 }
 
 .imgactivity2 {
@@ -447,7 +448,7 @@ aside {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 13em;
+  height: 12em;
   object-fit: cover;
 }
 
@@ -456,8 +457,8 @@ aside {
   border-top-right-radius: 15px;
   object-fit: cover;
   width: 100%;
-  height: 9em;
-  margin: 0px 0px 0px 0px;
+  height: 158px;
+  margin: 0;
 }
 
 .imgactivity5 {
@@ -479,7 +480,7 @@ aside {
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 30px;
   margin: 0px 25px 0px 0px;
-  height: 32em;
+  height: 30em;
 }
 
 .imgactivity1 , .imgactivity4 {
@@ -487,11 +488,12 @@ aside {
   border-top-right-radius: 15px;
   object-fit: cover;
   width: 100%;
-  height: 28em;
+  height: 27em;
 }
 
 .h3boxactivty {
-  padding: 0px 0px 0px 35px;
+  padding: 0;
+  margin: 0;
 }
 
 /* FOOTER */
@@ -1330,8 +1332,12 @@ aside {
     width: 22em;
   }
 
+  #searchfield {
+    width: 139px;
+  }
+
   .inscription {
-    padding: 0px 0px 0px 100px;
+    padding: 0px 0px 0px 45px;
   }
 
   .sectionsearch {
@@ -1416,7 +1422,7 @@ aside {
   }
 
   .imageshebergements {
-    width: 278px;
+    width: 200px;
     height: 125px;
   }
 
@@ -1436,23 +1442,24 @@ aside {
   }
 
   .containerarticles {
-    width: 22em;
-    margin: 20px 0px 0 4px;
+    width: 19em;
+    margin: 20px 0px 0px 8px;
     background-color: white;
   }
 
   .articleshebergements {
     flex-wrap: nowrap;
     background-color: white;
+    margin: 0px 0px 20px 50px;
   }
     /* HEBERGEMENT */
 
     /* ASIDE */  
     aside {
-      margin: 0px 0px 0 0px;
+      margin: 0;
       border-radius: 0;
       width: 21em;
-      padding: 0 20px;
+      padding: 0;
   }
 
   .titlepopularities {
@@ -1479,7 +1486,7 @@ aside {
   }
 
   .more {
-    margin: 0px 0px 0px 0px;
+    margin: 0;
   }
     /* ASIDE */
 
