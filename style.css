@@ -2,7 +2,6 @@
 body {
   font-family: "Raleway", sans-serif;
   margin: 0 auto;
-  background-color: #ffffff;
 }
 
 header {
@@ -17,12 +16,6 @@ main {
   margin: 30px auto;
 }
 
-footer {
-  display: flex;
-  background-color: #f2f2f2;
-  margin: 0 auto;
-  justify-content: center;
-}
 
   /* HEADER */
 /* NAVBAR */
@@ -59,7 +52,7 @@ a:link {
 }
 
 a.hebergement , a.inscription {
-  color: blue;
+  color: #0065FC;
 }
 
 .activity {
@@ -67,7 +60,7 @@ a.hebergement , a.inscription {
 }
 
 a.activity:hover {
-  color: blue;
+  color: #0065FC;
 }
 
 .titlehebergement:hover , .titleactivity1:hover , .liinscription:hover {
@@ -116,10 +109,21 @@ nav ul li {
 
 .starspopularityaside {
   color: #0065fc;
-
   letter-spacing: -20px;
-
 }
+
+.sunstars {
+  padding: 45px 0 0 0;
+}
+
+.bedroomstars {
+  padding: 35px 0 0 0;
+}
+
+.whiteandbluestars {
+  padding: 53px 0 0 0;
+}
+
 
 .greystar {
   color: #cacaca;
@@ -133,11 +137,11 @@ nav ul li {
   font-size: 16px;
   border-radius: 50%;
   padding: 10px 15px 12px 15px;
-  border-top: solid #e0e0e0 1px;
-  border-right: solid #e0e0e0 1px;
-  border-bottom: solid #e0e0e0 1px;
-  border-left: solid #e0e0e0 1px;
-  color: blue;
+  border-top: solid #F2F2F2 1px;
+  border-right: solid #F2F2F2 1px;
+  border-bottom: solid #F2F2F2 1px;
+  border-left: solid #F2F2F2 1px;
+  color: #0065FC;
 }
 
 i {
@@ -146,7 +150,7 @@ i {
 }
 
 #mapmarker > i {
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
 }
 
 .iconsearch {
@@ -154,7 +158,7 @@ i {
 }
 
 .icondesign {
-  color:blue;
+  color:#0065FC;
   background-color: #deebff;
 }
 
@@ -176,7 +180,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
   font-size: 1.2em;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -184,8 +188,8 @@ i {
 
 #searchfield {
   width: 235px;
-  border-top: solid #f2f2f2 1px;
-  border-bottom: solid #f2f2f2 1px;
+  border-top: solid #F2F2F2 1px;
+  border-bottom: solid #F2F2F2 1px;
   border-left: none;
   border-right: none;
   font-family: "Raleway", sans-serif;
@@ -223,10 +227,6 @@ i {
   margin: 0px 0px 0px -35px;
 }
 
-.info {
-  padding: 0px 30px;
-}
-
 #economy, #familial, #animals, #romantic{
   border-top: solid #e0e0e0 2px;
   border-right: solid #e0e0e0 2px;
@@ -238,9 +238,19 @@ i {
   margin-left: 1.2vw;
 }
 
+#economy:hover, #familial:hover, #animals:hover, #romantic:hover {
+  background-color: #F2F2F2;;
+  transform: scale(1.015);
+}
+
 .texteconomy, .textfamilial, .textromantic, .textanimals {
   margin-left: 10px;
   color: black;
+}
+
+/* INFORMATIONS */
+.info {
+  margin: 30px 0 30px 0px;
 }
 
   /* HEBERGEMENTS AND ASIDE */
@@ -285,7 +295,7 @@ i {
 .boxhebergements {
   width: 265px;
   height: 215px;
-  background-color: white;
+  background-color: #F2F2F2;
   border-radius: 25px;
   margin: 0px 0px 25px 0px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
@@ -306,7 +316,7 @@ i {
 }
 
 .containerarticles {
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
   border-radius: 25px;
   width: 65%;
   display: flex;
@@ -315,7 +325,7 @@ i {
 
 .article1, .article2, .article3, .article4, .article5, .article6 {
   width: 13vw;
-  background-color: white;
+  background-color:#F2F2F2;
   border-radius: 25px;
   padding: 0.35em;
   margin: 10px 0 25px 0;
@@ -328,14 +338,14 @@ h4.cannebiere, h4.port, h4.mouettes, h4.mer, h4.lepanier, h4.amina {
 
 /* ASIDE  */
 aside {
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
   border-radius: 25px;
   width: 33%;
 }
 
 .titlepopularities {
   margin: 0;
-  padding: 15px 0px 0px 180px;
+  padding: 15px 0px 0px 190px;
 }
 
 .descriptionpopularity {
@@ -351,7 +361,7 @@ aside {
 }
 
 .articlespopularity {
-  background-color: white;
+  background-color: #F2F2F2;
   border-radius: 20px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
   height: 10em;
@@ -359,9 +369,11 @@ aside {
 }
 
 .paragraphepopularities {
-  padding: 15px 0px 0px 180px;
+  padding: 15px 75px 0px 190px;
   margin: 0;
 }
+
+
 
 .imagespopularities {
   border-top-left-radius: 15px;
@@ -386,8 +398,8 @@ aside {
 .boxactivites_b {
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
-  width: 100%;
-  height: 15em;
+  width: 300px;
+  height: 250px;
   margin: 0px 20px 35px 0px;
 }
 
@@ -416,7 +428,7 @@ aside {
 .boxactivity_f {
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 30px;
-  width: 110%;
+  width: 385px;
   height: 15em;
   margin: 0;
 }
@@ -425,12 +437,13 @@ aside {
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
   margin: 0;
-  height: 13em;
+  height: 190px;
+  width: 300px;
 }
 
 .boxactivity_e {
-  width: 110%;
-  margin: 0px 20px 30px 0px;
+  width: 385px;
+  margin: 0px 0px 30px 0px;
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 20px;
   height: 13em;
@@ -457,7 +470,7 @@ aside {
   border-top-right-radius: 15px;
   object-fit: cover;
   width: 100%;
-  height: 158px;
+  height: 147px;
   margin: 0;
 }
 
@@ -466,7 +479,7 @@ aside {
   border-top-right-radius: 15px;
   object-fit: cover;
   width: 100%;
-  height: 10em;
+  height: 165px;
 }
 
 .sectionsactivity {
@@ -480,7 +493,7 @@ aside {
   box-shadow: 4px 2px 20px rgb(201 201 201);
   border-radius: 30px;
   margin: 0px 25px 0px 0px;
-  height: 30em;
+  height: 475px;
 }
 
 .imgactivity1 , .imgactivity4 {
@@ -492,14 +505,21 @@ aside {
 }
 
 .h3boxactivty {
-  padding: 0;
+  padding: 7px 0px 0px 25px;
   margin: 0;
 }
 
 /* FOOTER */
+
+footer {
+  background-color: #F2F2F2;
+}
+
 .categoriesfooter {
   display: flex;
-  margin: 0 50px 0px 0px;
+  max-width: 1550px;
+  background-color: #F2F2F2;
+  margin: 0px auto;
 }
 
 .marginfooter {
@@ -509,10 +529,11 @@ aside {
 .apropos {
   display: flex;
   flex-direction: column;
+  margin: 0px 0px 0px 15px;
 }
 
 .hebergementsfooter {
-  padding: 0px 25em 0px 25em;
+  padding: 0px 250px 0px 230px;
   display: flex;
   flex-direction: column;
 }
@@ -617,9 +638,16 @@ aside {
     font-size: 1.5em;
   }
     /* FILTER */
-  #economy, #familial, #animals, #romantic {
+  .economy, #familial, #animals, #romantic {
     display: flex;
     align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
   }
 
   .allfilters {
@@ -996,7 +1024,7 @@ aside {
   }
 
   a.hebergement, a.inscription {
-    color: blue;
+    color: #0065FC;
     position: absolute;
     top: 30px;
   }
@@ -1034,7 +1062,7 @@ aside {
 
   /* FILTER */
   .searchiconphone:active {
-    color: white;
+    color: #F2F2F2;
     padding: 0 1.5rem;
   }
 
@@ -1129,12 +1157,12 @@ aside {
   .containerarticles {
     width: 22em;
     margin: 21px 0px 0px 11px;
-    background-color: white;
+    background-color: #F2F2F2;
   }
 
   .articleshebergements {
     flex-wrap: nowrap;
-    background-color: white;
+    background-color:#F2F2F2;
   }
     /* HEBERGEMENT */
 
@@ -1239,7 +1267,7 @@ aside {
 /* MAIN */
 }
 
-@media screen and (min-width: 320px) and (max-width: 568px){
+@media screen and (min-width: 375px) and (max-width: 736px){
   /* STRUCTURE */
   body {
     margin: 0;
@@ -1312,7 +1340,7 @@ aside {
   }
 
   a.hebergement, a.inscription {
-    color: blue;
+    color: #0065FC;
     position: absolute;
     top: 30px;
   }
@@ -1350,7 +1378,7 @@ aside {
 
   /* FILTER */
   .searchiconphone:active {
-    color: white;
+    color: #F2F2F2;
     padding: 0 1.5rem;
   }
 
@@ -1440,12 +1468,12 @@ aside {
   .containerarticles {
     width: 19em;
     margin: 20px 0px 0px 8px;
-    background-color: white;
+    background-color: #F2F2F2;
   }
 
   .articleshebergements {
     flex-wrap: nowrap;
-    background-color: white;
+    background-color: #F2F2F2;
     margin: 0px 0px 20px 50px;
   }
     /* HEBERGEMENT */
@@ -1547,325 +1575,6 @@ aside {
 /* MAIN */
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px){
-  /* STRUCTURE */
-  body {
-    margin: 0;
-    background-color: rgb(255, 153, 233);
-    overflow-x: hidden;
-  }
-  /* STRUCTURE */
-
-  /* HEADER */  
-    /* LOGO */
-  .logo {
-    margin: 15px 0 0 15px;
-    width: 90px;
-    height: 45px;
-  }
-    /* LOGO */
-
-    /* NAVBAR */
-  header {
-    display: initial;
-    margin: 0;
-  }
-  nav ul {
-    display: flex;
-    margin: 0;
-    font-size: 20px;
-    padding: 0;
-    flex-wrap: wrap-reverse;
-  }
-  
-  nav ul li:hover {
-    border-top: none;
-  }
-
-  nav ul li {
-    padding: 0;
-    margin: 0;
-  }
-
-  .hebergement {
-    border-top: none;
-    border-bottom: 3px solid #F2F2F2;
-    padding: 0;
-    width: 50%;
-    margin: 35px 0 0 0;
-    text-align: center;
-  }
-
-  .titlehebergement {
-    padding: 36px 30px 0 30px;
-  }
-
-  .activity {
-    border-top: none;
-    border-bottom: 3px solid #F2F2F2;
-    border-bottom-color: rgb(242, 242, 242);
-    width: 50%;
-    padding-bottom: 15px;
-    padding-top: 35px;
-    text-align: center;
-  }
-
-  .hebergement_activity {
-    display: flex;
-    width: 375px;
-  }
-
-  .liinscription {
-    padding: 0px 0px 0px 160px;
-  }
-
-  a.hebergement, a.inscription {
-    color: blue;
-    position: absolute;
-    top: 30px;
-  }
-  /* NAVBAR */
-/* HEADER */
-
-/* MAIN */
-
-  main {
-    overflow-x: hidden;
-    max-width: none;
-  }
-  /* SEARCH */
-  .titleprincipal {
-    font-size: 17px;
-    margin: 0;
-    width: 22em;
-  }
-
-  .inscription {
-    padding: 0px 0px 0px 100px;
-  }
-
-  .sectionsearch {
-    margin: 0;
-    padding: 0 21px;
-  }
-
-  .search {
-    display: flex;
-    margin-bottom: 30px;
-    width: 10%;
-  }
-  /* SEARCH */
-
-  /* FILTER */
-  .searchiconphone:active {
-    color: white;
-    padding: 0 1.5rem;
-  }
-
-  h3.titlefilter {
-    margin: 0px 0px 20px 50px;
-  }
-
-  .allfilters {
-    display: flex;
-    margin: 0;
-    overflow-x: -moz-hidden-unscrollable;
-    flex-wrap: wrap;
-    width: 20em;
-    padding: 0 20px;
-  }
-
-  .filters {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  #economy, #familial, #animals, #romantic {
-    margin: 0px 0px 10px 5px;
-  }
-
-  /* FILTER */
-  /* INFORMATION */
-  .info {
-    margin: 35px 0px 35px 0px;
-    padding: 0 20px;
-  }
-  /* ICONS */
-  #searchtitle {
-    display: none;
-  }
-
-  .iconsearch {
-    display: block !important;
-  }
-
-  #iconeinfo {
-    font-size: 14px;
-  }
-
-  .starspopularityaside > i {    
-    padding: 0;
-  }
-
-  .greystar > i {
-    margin: 0;
-    padding: 0px 25px 0px 0px;
-  }
-
-  .starspopularityaside {
-    margin: 0;
-    letter-spacing: 0;  
-  }
-  /* ICONS */
-  
-  /* HEBERGEMENT */
-  .wrapper {
-    margin: 0;
-    display: flex;
-    width: 18em;
-  }
-
-  .imageshebergements {
-    width: 278px;
-    height: 125px;
-  }
-
-  .boxhebergements {
-    margin: 0px 0px 25px 0px;
-    width: 350px !important;
-  }
-
-  .inline_articles_aside {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-  }
-
-  .boxhebergements {
-    width: 210px;
-    height: 250px;
-  }
-
-  #hebergements {
-    margin: 20px 0px 25px 0px;
-  }
-
-  .containerarticles {
-    width: 22em;
-    margin: 21px 0px 0px 11px;
-    background-color: white;
-  }
-
-  .articleshebergements {
-    flex-wrap: nowrap;
-    background-color: white;
-  }
-    /* HEBERGEMENT */
-
-    /* ASIDE */  
-    aside {
-      margin: 0px 0px 0 0px;
-      border-radius: 0;
-      width: 21em;
-      padding: 0 20px;
-  }
-
-  .titlepopularities {
-    margin: 0;
-    padding: 15px 0px 0px 0px;
-  }
-
-  .h2_popularity {
-      margin: 35px 0px 20px 20px;
-  }
-
-  .articlespopularity {
-    width: 100%;
-  }
-
-  .imagespopularities {
-    width: 125px;
-    height: 150px;
-  }
-
-  .blocpopularity {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .more {
-    margin: 0px 0px 0px 0px;
-  }
-    /* ASIDE */
-
-    /* SECTION ACTIVITY */
-
-  .boxactivites_1, .boxactivites_2, .boxactivites_3, .boxactivites_4, .boxactivites_5, .boxactivites_6 {
-    width: 60vw;
-    height: 60vw;
-  }
-
-  .boxactivity_a , .boxactivites_b , .boxactivity_c , .boxactivity_d , .boxactivity_e, .boxactivity_f {
-    width: 85vw;
-    height: 55vw;
-  }
-
-  .boxactivity_f , .boxactivity_c {
-    margin: 0;
-  }
-
-  .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 170px;
-    width: 319px;
-  }
-
-  .h3boxactivty {
-    padding: 5px 0 0 15px;
-    margin: 0;
-  }
-
-  .sectionsactivity {
-    display: inline-block;
-    padding-left: 25px;
-    margin: 0;
-  }
-    /* SECTION ACTIVITY */
-
-    /* FOOTER */
-  .hebergementsfooter {
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .apropos {
-    margin: 0 65px;
-  }
-
-  footer {
-    display: flex;
-    margin: 0;
-  }
-
-  .categoriesfooter {
-    flex-direction: column;
-    margin: 0 50px 0px 0px;
-  }
-
-
-  .marginfooter {
-    margin: 10px 0px 0px 40px;
-  }
-    /* FOOTER */
-/* MAIN */
-}
-/* MEDIA QUERIES */
-
-@media screen and (min-width: 375px) and (max-width: 667px){
-    body {
-      background-color: turquoise;
-    }
-}
-
 @media screen and (min-width: 414px) and (max-width: 736px){
   body {
     background-color: rgb(146, 93, 84);
@@ -1884,7 +1593,7 @@ aside {
   .containerarticles {
     width: 390px;
     margin: 21px 0px 0px 11px;
-    background-color: white;
+    background-color: #F2F2F2;
   }
 
   /* ASIDE */
