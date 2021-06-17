@@ -950,7 +950,7 @@ footer {
 }
 
   /* MOBILES PORTRAIT*/ 
-@media screen and (min-width: 360px) and (max-width: 640px){
+@media only screen and (min-width: 360px) and (max-width: 640px){
 
   /* STRUCTURE */
   body {
@@ -1267,7 +1267,7 @@ footer {
 /* MAIN */
 }
 
-@media screen and (min-width: 375px) and (max-width: 736px){
+@media only screen and (min-width: 375px) and (max-width: 736px){
   /* STRUCTURE */
   body {
     margin: 0;
@@ -1332,7 +1332,7 @@ footer {
 
   .hebergement_activity {
     display: flex;
-    width: 375px;
+    width: 415px;
   }
 
   .liinscription {
@@ -1466,7 +1466,7 @@ footer {
   }
 
   .containerarticles {
-    width: 19em;
+    width: 25em;
     margin: 20px 0px 0px 8px;
     background-color: #F2F2F2;
   }
@@ -1482,7 +1482,7 @@ footer {
     aside {
       margin: 0;
       border-radius: 0;
-      width: 21em;
+      width: 26em;
       padding: 0;
   }
 
@@ -1532,7 +1532,7 @@ footer {
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
     height: 170px;
-    width: 319px;
+    width: 352px;
   }
 
   .h3boxactivty {
@@ -1575,42 +1575,4 @@ footer {
 /* MAIN */
 }
 
-@media screen and (min-width: 414px) and (max-width: 736px){
-  body {
-    background-color: rgb(146, 93, 84);
-  }
-  /* HEADER */
-  .hebergement_activity {
-    width: 412px;
-  }
 
-  /* SECTION ACTIVITES */
-  .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 170px;
-    width: 352px;
-  }
-
-  .containerarticles {
-    width: 390px;
-    margin: 21px 0px 0px 11px;
-    background-color: #F2F2F2;
-  }
-
-  /* ASIDE */
-  aside {
-    margin: 0px 0px 0 0px;
-    border-radius: 0;
-    width: 24em;
-    padding: 0 20px;
-  }
-
-  /* FOOTER */
-  .categoriesfooter {
-    flex-direction: column;
-    margin: 0 155px 0px 0px;
-  }
-
-  .apropos {
-    margin: 0;
-  }
-}
