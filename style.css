@@ -599,7 +599,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 834px) and (max-width: 900px) {
   header, body, html {
     overflow-x: hidden;
     margin: 0px 15px 0px 15px;
@@ -670,7 +670,8 @@ footer {
   .wrapper {
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 715px;
   }
 
   #hebergements {
@@ -679,15 +680,14 @@ footer {
   }
 
   .boxhebergements {
-    width: 455px;
-    height: 415px;
-    margin: 0px 65px 20px 25px;
+    width: 350px;
+    height: 365px;
     text-align: center;
   }
 
   .imageshebergements {
-    width: 445px;
-    height: 320px;
+    width: 340px;
+    height: 270px;
   }
 
   .paragraphehebergements {
@@ -734,8 +734,8 @@ footer {
   }
 
   .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
-    width: 29em;
-    height: 30em;
+    width: 804px;
+    height: 445px;
   }
 
   .boxactivity_e {
@@ -745,7 +745,7 @@ footer {
   .boxactivites_b {
     box-shadow: 4px 2px 20px rgb(201 201 201);
     border-radius: 20px;
-    height: 29em;
+    height: 445px;
     margin: 0px 20px 35px 0px;
   }
   .boxactivites_1 {
@@ -758,7 +758,184 @@ footer {
 
   .sectionsactivity {
     display: inline-block;
-    margin: 0px 0px 100px 50px;
+    margin: 0;
+    width: 750px;
+  }
+
+ /* MAIN */
+ 
+ /* FOOTER */
+  footer {
+    overflow: hidden;
+    margin: 10px 0px 5px -35px;
+    justify-content: space-around;
+  }
+
+  .hebergementsfooter {
+    padding: 0px;
+  }
+ /* FOOTER */
+}
+@media only screen and (min-width: 800px) and (max-width: 833px) {
+
+  body {
+    background-color: rebeccapurple;
+  }
+  header, body, html {
+    overflow-x: hidden;
+    margin: 0px 15px 0px 15px;
+  }
+
+  header {
+    margin-top: 20px;
+  }
+  /* STRUCTURE */
+    /* NAVBAR */
+
+    /* LOGO */
+    .logo {
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    }
+    /* LOGO */
+
+  /* HEADER */
+      /* NAVBAR */
+  nav ul {
+    font-size: 16px;
+    display: flex;
+    margin: -10px 15px 40px 0px;
+  }
+    /* NAVBAR */
+  /* HEADER */
+
+  /* MAIN */
+  .titleprincipal {
+    font-size: 1.5em;
+  }
+    /* FILTER */
+  .economy, #familial, #animals, #romantic {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
+  }
+
+  .allfilters {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+
+  .filters {
+    font-size: 14px;
+  }
+    /* FILTER */
+
+    /* SECTION HEBERGEMENT */
+  .containerarticles {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 715px;
+  }
+
+  #hebergements {
+    margin: 20px 0px 25px 25px;
+    font-size: 22px;
+  }
+
+  .boxhebergements {
+    width: 350px;
+    height: 365px;
+    text-align: center;
+  }
+
+  .imageshebergements {
+    width: 340px;
+    height: 270px;
+  }
+
+  .paragraphehebergements {
+    margin: 5px 15px 0px 15px;
+  }
+
+  h4.cannebiere, h4.port, h4.mouettes, h4.mer, h4.lepanier, h4.amina {
+    margin: 0 15px 0px 15px;
+  }
+  .descriptionhebergement {
+    margin: 0;
+  }
+
+  /* SECTION HEBERGEMENT */
+
+  /* ASIDE */
+  aside {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .inline_articles_aside {
+    flex-wrap: wrap;
+  }
+
+  /* ASIDE */
+
+  /* SECTION ACTIVITY */
+  .boxactivites_1, .boxactivites_2, .boxactivites_3,  .boxactivites_4,   .boxactivites_5, .boxactivites_6 {
+    width: 40vw;
+    margin-top: 35px;
+  }
+
+  .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
+    height: 25em;
+  }
+
+  .boxactivity_f {
+    margin: 0 !important ;
+  }
+
+  .h3boxactivty {
+    padding: 0px 0px 0px 15px;
+  }
+
+  .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
+    width: 804px;
+    height: 445px;
+  }
+
+  .boxactivity_e {
+    margin: 0px 20px 0px 0px;
+  }
+
+  .boxactivites_b {
+    box-shadow: 4px 2px 20px rgb(201 201 201);
+    border-radius: 20px;
+    height: 445px;
+    margin: 0px 20px 35px 0px;
+  }
+  .boxactivites_1 {
+    margin-bottom: 30px;
+  }
+
+  .boxactivites_2 {
+    margin-top: 0;
+  }
+
+  .sectionsactivity {
+    display: inline-block;
+    margin: 0;
+    width: 750px;
   }
 
  /* MAIN */
@@ -776,8 +953,7 @@ footer {
  /* FOOTER */
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media (width: 768px) and (height: 1024px) {
   /* STRUCTURE */
   header, body, html {
     overflow-x: hidden;
@@ -820,6 +996,11 @@ footer {
   #economy, #familial, #animals, #romantic {
     display: flex;
     align-items: center;
+  }
+
+  li#economy {
+    height: 43px;
+    margin: 0 35px 0 8px;
   }
 
   .allfilters {
@@ -906,8 +1087,8 @@ footer {
   }
 
   .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
-    width: 40em;
-    height: 30em;
+    width: 650px;
+    height: 440px;
   }
 
   .boxactivity_e {
@@ -917,7 +1098,7 @@ footer {
   .boxactivites_b {
     box-shadow: 4px 2px 20px rgb(201 201 201);
     border-radius: 20px;
-    height: 29em;
+    height: 440px;
     margin: 0px 20px 35px 0px;
   }
   .boxactivites_1 {
@@ -930,7 +1111,7 @@ footer {
 
   .sectionsactivity {
     display: inline-block;
-    margin: 0px 0px 100px 50px;
+    margin: 0px 0px 40px 40px;
   }
 
 
@@ -1267,25 +1448,28 @@ footer {
 /* MAIN */
 }
 
+
+
+/* 
 @media only screen and (min-width: 375px) and (max-width: 736px){
-  /* STRUCTURE */
-  body {
+  STRUCTURE */
+  /* body {
     margin: 0;
     background-color: rgb(129, 182, 241);
     overflow-x: hidden;
-  }
+  } */
   /* STRUCTURE */
 
   /* HEADER */  
     /* LOGO */
-  .logo {
+  /* .logo {
     margin: 15px 0 0 15px;
     width: 90px;
     height: 45px;
-  }
+  } */
     /* LOGO */
 
-    /* NAVBAR */
+    /* NAVBAR
   header {
     display: initial;
     margin: 0;
@@ -1343,18 +1527,18 @@ footer {
     color: #0065FC;
     position: absolute;
     top: 30px;
-  }
+  } */
   /* NAVBAR */
 /* HEADER */
 
 /* MAIN */
 
-  main {
+  /* main {
     overflow-x: hidden;
     max-width: none;
-  }
+  } */
   /* SEARCH */
-  .titleprincipal {
+  /* .titleprincipal {
     font-size: 17px;
     margin: 0;
     width: 22em;
@@ -1373,11 +1557,11 @@ footer {
     display: flex;
     margin-bottom: 30px;
     width: 10%;
-  }
+  } */
   /* SEARCH */
 
   /* FILTER */
-  .searchiconphone:active {
+  /* .searchiconphone:active {
     color: #F2F2F2;
     padding: 0 1.5rem;
   }
@@ -1393,25 +1577,25 @@ footer {
     flex-wrap: wrap;
     width: 20em;
     padding: 0 20px;
-  }
+  } */
 
-  .filters {
+  /* .filters {
     display: flex;
     flex-wrap: wrap;
   }
 
   #economy, #familial, #animals, #romantic {
     margin: 0px 0px 10px 5px;
-  }
+  } */
 
   /* FILTER */
   /* INFORMATION */
-  .info {
+  /* .info {
     margin: 35px 0px 35px 0px;
     padding: 0 20px;
-  }
+  } */
   /* ICONS */
-  #searchtitle {
+  /* #searchtitle {
     display: none;
   }
 
@@ -1435,11 +1619,11 @@ footer {
   .starspopularityaside {
     margin: 0;
     letter-spacing: 0;  
-  }
+  } */
   /* ICONS */
   
   /* HEBERGEMENT */
-  .wrapper {
+  /* .wrapper {
     margin: 0;
     display: flex;
     width: 18em;
@@ -1475,11 +1659,11 @@ footer {
     flex-wrap: nowrap;
     background-color: #F2F2F2;
     margin: 0px 0px 20px 50px;
-  }
+  } */
     /* HEBERGEMENT */
 
     /* ASIDE */  
-    aside {
+    /* aside {
       margin: 0;
       border-radius: 0;
       width: 26em;
@@ -1511,12 +1695,12 @@ footer {
 
   .more {
     margin: 0;
-  }
+  } */
     /* ASIDE */
 
     /* SECTION ACTIVITY */
 
-  .boxactivites_1, .boxactivites_2, .boxactivites_3, .boxactivites_4, .boxactivites_5, .boxactivites_6 {
+  /* .boxactivites_1, .boxactivites_2, .boxactivites_3, .boxactivites_4, .boxactivites_5, .boxactivites_6 {
     width: 60vw;
     height: 60vw;
   }
@@ -1544,11 +1728,11 @@ footer {
     display: inline-block;
     padding-left: 25px;
     margin: 0;
-  }
+  } */
     /* SECTION ACTIVITY */
 
     /* FOOTER */
-  .hebergementsfooter {
+  /* .hebergementsfooter {
     padding: 0px;
     margin: 0px;
   }
@@ -1570,9 +1754,9 @@ footer {
 
   .marginfooter {
     margin: 10px 0px 0px 40px;
-  }
+  } */
     /* FOOTER */
 /* MAIN */
-}
+/* } */
 
 
