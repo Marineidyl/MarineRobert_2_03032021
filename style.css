@@ -546,6 +546,38 @@ footer {
 
 
 /* MEDIA QUERIES */
+@media only screen and (min-width: 3840px) and (max-width: 5119px) {
+  body {
+    background-color: rgb(153, 153, 236);
+  }
+
+  /* SEARCH */
+  .sectionsearch {
+    margin: 60px 0;
+  }
+
+  /* FILTERS */
+  .filters {
+    margin: 40px 0;
+  }
+    
+  /* HEBERGEMENT / ASIDE */
+  .inline_articles_aside {
+    margin: 70px 0;
+  }
+
+  /* ACTIVITIES */
+
+  .titleactivity {
+    padding: 30px 0px 0 0px;
+    margin: 0;
+  }
+
+  .sectionsactivity {
+    margin: 75px 0;
+  }
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   body {
     background-color: black;
@@ -659,6 +691,11 @@ footer {
   .filters {
     font-size: 14px;
   }
+
+  li#economy {
+    height: 43px;
+    margin: 0 35px 0 8px;
+  }
     /* FILTER */
 
     /* SECTION HEBERGEMENT */
@@ -671,7 +708,7 @@ footer {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    width: 715px;
+    width: 740px;
   }
 
   #hebergements {
@@ -835,6 +872,11 @@ footer {
   .filters {
     font-size: 14px;
   }
+
+  li#economy {
+    height: 43px;
+    margin: 0 35px 0 8px;
+  }
     /* FILTER */
 
     /* SECTION HEBERGEMENT */
@@ -847,7 +889,7 @@ footer {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    width: 715px;
+    width: 675px;
   }
 
   #hebergements {
@@ -856,13 +898,13 @@ footer {
   }
 
   .boxhebergements {
-    width: 350px;
+    width: 315px;
     height: 365px;
     text-align: center;
   }
 
   .imageshebergements {
-    width: 340px;
+    width: 305px;
     height: 270px;
   }
 
@@ -910,7 +952,7 @@ footer {
   }
 
   .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
-    width: 804px;
+    width: 740px;
     height: 445px;
   }
 
@@ -996,11 +1038,6 @@ footer {
   #economy, #familial, #animals, #romantic {
     display: flex;
     align-items: center;
-  }
-
-  li#economy {
-    height: 43px;
-    margin: 0 35px 0 8px;
   }
 
   .allfilters {
