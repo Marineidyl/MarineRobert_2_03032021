@@ -1158,319 +1158,316 @@ footer {
 
 /* MOBILES */ 
 @media only screen and (min-width: 414px) and (max-width: 599px){
+/* STRUCTURE */
+body {
+  margin: 0;
+  background-color: rgb(251, 168, 212);
+  overflow-x: hidden;
+}
 
-  /* STRUCTURE */
-  body {
-    margin: 0;
-    background-color: rgb(165, 230, 44);
-    overflow-x: hidden;
-  }
-  /* STRUCTURE */
+/* HEADER */  
+  /* LOGO */
+.logo {
+  margin: 15px 0 0 15px;
+  width: 90px;
+  height: 45px;
+}
 
-  /* HEADER */  
-    /* LOGO */
-  .logo {
-    margin: 15px 0 0 15px;
-    width: 90px;
-    height: 45px;
-  }
-    /* LOGO */
-
-    /* NAVBAR */
-  header {
-    display: initial;
-    margin: 0;
-  }
-  nav ul {
-    display: flex;
-    margin: 0;
-    font-size: 20px;
-    padding: 0;
-    flex-wrap: wrap-reverse;
-  }
-  
-  nav ul li:hover {
-    border-top: none;
-  }
-
-  nav ul li {
-    padding: 0;
-    margin: 0;
-  }
-
-  .hebergement {
-    border-top: none;
-    border-bottom: 3px solid #F2F2F2;
-    padding: 0;
-    width: 50%;
-    margin: 35px 0 0 0;
-    text-align: center;
-  }
-
-  .titlehebergement {
-    padding: 36px 30px 0 30px;
-  }
-
-  .activity {
-    border-top: none;
-    border-bottom: 3px solid #F2F2F2;
-    border-bottom-color: rgb(242, 242, 242);
-    width: 50%;
-    padding-bottom: 15px;
-    padding-top: 35px;
-    text-align: center;
-  }
-
-  .hebergement_activity {
-    display: flex;
-    width: 375px;
-  }
-
-  .liinscription {
-    padding: 0px 0px 0px 160px;
-  }
-
-  a.hebergement, a.inscription {
-    color: #0065FC;
-    position: absolute;
-    top: 30px;
-  }
   /* NAVBAR */
-/* HEADER */
+header {
+  display: initial;
+  margin: 0;
+}
+nav ul {
+  display: flex;
+  margin: 0;
+  font-size: 20px;
+  padding: 0;
+  flex-wrap: wrap-reverse;
+}
+
+nav ul li:hover {
+  border-top: none;
+}
+
+nav ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.hebergement {
+  border-top: none;
+  border-bottom: 3px solid #F2F2F2;
+  padding: 0;
+  width: 50%;
+  margin: 35px 0 0 0;
+  text-align: center;
+}
+
+.titlehebergement {
+  padding: 36px 30px 0 30px;
+}
+
+.activity {
+  border-top: none;
+  border-bottom: 3px solid #F2F2F2;
+  border-bottom-color: rgb(242, 242, 242);
+  width: 50%;
+  padding-bottom: 15px;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.hebergement_activity {
+  display: flex;
+  width: 375px;
+}
+
+.liinscription {
+  padding: 0px 0px 0px 160px;
+}
+
+a.hebergement, a.inscription {
+  color: #0065FC;
+  position: absolute;
+  top: 30px;
+}
 
 /* MAIN */
+main {
+  overflow-x: hidden;
+  max-width: none;
+}
+/* SEARCH */
+.titleprincipal {
+  font-size: 17px;
+  margin: 0;
+  width: 22em;
+}
 
-  main {
-    overflow-x: hidden;
-    max-width: none;
-  }
-  /* SEARCH */
-  .titleprincipal {
-    font-size: 17px;
-    margin: 0;
-    width: 22em;
-  }
+.inscription {
+  padding: 0px 0px 0px 100px;
+}
 
-  .inscription {
-    padding: 0px 0px 0px 100px;
-  }
+.sectionsearch {
+  margin: 0;
+  padding: 0 21px;
+}
 
-  .sectionsearch {
-    margin: 0;
-    padding: 0 21px;
-  }
+.search {
+  display: flex;
+  margin-bottom: 30px;
+  width: 10%;
+}
 
-  .search {
-    display: flex;
-    margin-bottom: 30px;
-    width: 10%;
-  }
-  /* SEARCH */
+/* FILTER */
+.searchiconphone:active {
+  color: #F2F2F2;
+  padding: 0 1.5rem;
+}
 
-  /* FILTER */
-  .searchiconphone:active {
-    color: #F2F2F2;
-    padding: 0 1.5rem;
-  }
+h3.titlefilter {
+  margin: 0px 0px 20px 50px;
+}
 
-  h3.titlefilter {
-    margin: 0px 0px 20px 50px;
-  }
+.allfilters {
+  display: flex;
+  margin: 0;
+  overflow-x: -moz-hidden-unscrollable;
+  flex-wrap: wrap;
+  width: 20em;
+  padding: 0 20px;
+}
 
-  .allfilters {
-    display: flex;
-    margin: 0;
-    overflow-x: -moz-hidden-unscrollable;
-    flex-wrap: wrap;
-    width: 20em;
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#economy, #familial, #animals, #romantic {
+  margin: 0px 0px 10px 5px;
+}
+
+/* INFORMATION */
+.info {
+  margin: 35px 0px 35px 0px;
+  padding: 0 20px;
+}
+
+/* ICONS */
+#searchtitle {
+  display: none;
+}
+
+.iconsearch {
+  display: block !important;
+}
+
+#iconeinfo {
+  font-size: 14px;
+}
+
+.starspopularityaside > i {    
+  padding: 0;
+}
+
+.greystar > i {
+  margin: 0;
+  padding: 0px 25px 0px 0px;
+}
+
+.starspopularityaside {
+  margin: 0;
+  letter-spacing: 0;  
+}
+
+.sunstars {
+  padding: 0;
+}
+
+.bedroomstars, .whiteandbluestars {
+  padding: 10px 0 0 0;
+}
+/* HEBERGEMENT */
+.wrapper {
+  margin: 0;
+  display: flex;
+  width: 375px;
+}
+
+.imageshebergements {
+  width: 343px;
+  height: 125px;
+}
+
+.inline_articles_aside {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.boxhebergements {
+  width: 352px;
+  height: 210px;
+  margin: 0px 0px 25px 10px;
+}
+
+#hebergements {
+  margin: 20px 0px 25px 0px;
+}
+
+.containerarticles {
+  width: 380px;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 0;
+}
+
+.articleshebergements {
+  flex-wrap: nowrap;
+  background-color: #FFF;
+  margin: 0;
+}
+
+  /* ASIDE */  
+  aside {
+    margin: 0px 0px 0 0px;
+    border-radius: 0;
+    width: 21em;
     padding: 0 20px;
-  }
+}
 
-  .filters {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.paragraphepopularities {
+  padding: 8px 0px 40px;
+  margin: 0;
+}
 
-  #economy, #familial, #animals, #romantic {
-    margin: 0px 0px 10px 5px;
-  }
+.titlepopularities {
+  margin: 0;
+  padding: 15px 0px 0px 0px;
+}
 
-  /* FILTER */
-  /* INFORMATION */
-  .info {
-    margin: 35px 0px 35px 0px;
-    padding: 0 20px;
-  }
-  /* ICONS */
-  #searchtitle {
-    display: none;
-  }
+.h2_popularity {
+    margin: 35px 0px 20px 20px;
+}
 
-  .iconsearch {
-    display: block !important;
-  }
+.articlespopularity {
+  width: 100%;
+}
 
-  #iconeinfo {
-    font-size: 14px;
-  }
+.imagespopularities {
+  width: 125px;
+  height: 150px;
+}
 
-  .starspopularityaside > i {    
-    padding: 0;
-  }
+.blocpopularity {
+  margin: 0 20px;
+}
 
-  .greystar > i {
-    margin: 0;
-    padding: 0px 25px 0px 0px;
-  }
+.more {
+  margin: 0px 0px 0px 25px;
+}
+  /* ASIDE */
 
-  .starspopularityaside {
-    margin: 0;
-    letter-spacing: 0;  
-  }
-  /* ICONS */
-  
-  /* HEBERGEMENT */
-  .wrapper {
-    margin: 0;
-    display: flex;
-    width: 18em;
-  }
+  /* SECTION ACTIVITY */
 
-  .imageshebergements {
-    width: 278px;
-    height: 125px;
-  }
+.boxactivites_1, .boxactivites_2, .boxactivites_3, .boxactivites_4, .boxactivites_5, .boxactivites_6 {
+  width: 60vw;
+  height: 60vw;
+}
 
-  .boxhebergements {
-    margin: 0px 0px 25px 0px;
-    width: 350px !important;
-  }
+.boxactivity_a , .boxactivites_b , .boxactivity_c , .boxactivity_d , .boxactivity_e, .boxactivity_f {
+  width: 352px;
+  height: 210px;  
+  margin: 0px 0px 25px 10px;
+}
 
-  .inline_articles_aside {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-  }
+.imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
+  height: 165px;
+  width: 352px;
+}
 
-  .boxhebergements {
-    width: 210px;
-    height: 250px;
-  }
+.h3boxactivty {
+  padding: 5px 0 0 15px;
+  margin: 0;
+}
 
-  #hebergements {
-    margin: 20px 0px 25px 0px;
-  }
+.sectionsactivity {
+  display: inline-block;
+  width: 375px;
+  margin: 0;
+}
+  /* SECTION ACTIVITY */
 
-  .containerarticles {
-    width: 22em;
-    margin: 21px 0px 0px 11px;
-    background-color: #F2F2F2;
-  }
+  /* FOOTER */
+.hebergementsfooter {
+  padding: 0px;
+  margin: 0px;
+}
 
-  .articleshebergements {
-    flex-wrap: nowrap;
-    background-color:#F2F2F2;
-  }
-    /* HEBERGEMENT */
+.apropos {
+  margin: 0;
+}
 
-    /* ASIDE */  
-    aside {
-      margin: 0px 0px 0 0px;
-      border-radius: 0;
-      width: 21em;
-      padding: 0 20px;
-  }
+footer {
+  display: flex;
+  margin: 0;
+  padding: 0 0px 0px 10px;
+}
 
-  .paragraphepopularities {
-    padding: 8px 0px 40px;
-    margin: 0;
-  }
+.categoriesfooter {
+  flex-direction: column;
+  margin: 0;
+}
 
-  .titlepopularities {
-    margin: 0;
-    padding: 15px 0px 0px 0px;
-  }
+.marginfooter {
+  margin: 0;
+}
 
-  .h2_popularity {
-      margin: 35px 0px 20px 20px;
-  }
-
-  .articlespopularity {
-    width: 100%;
-  }
-
-  .imagespopularities {
-    width: 125px;
-    height: 150px;
-  }
-
-  .blocpopularity {
-    margin: 0 20px;
-  }
-
-  .more {
-    margin: 0px 0px 0px 0px;
-  }
-    /* ASIDE */
-
-    /* SECTION ACTIVITY */
-
-  .boxactivites_1, .boxactivites_2, .boxactivites_3, .boxactivites_4, .boxactivites_5, .boxactivites_6 {
-    width: 60vw;
-    height: 60vw;
-  }
-
-  .boxactivity_a , .boxactivites_b , .boxactivity_c , .boxactivity_d , .boxactivity_e, .boxactivity_f {
-    width: 85vw;
-    height: 57vw;
-  }
-
-  .boxactivity_f , .boxactivity_c {
-    margin: 0;
-  }
-
-  .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 170px;
-    width: 305px;
-  }
-
-  .h3boxactivty {
-    padding: 5px 0 0 15px;
-    margin: 0;
-  }
-
-  .sectionsactivity {
-    display: inline-block;
-    padding-left: 25px;
-    margin: 0;
-  }
-    /* SECTION ACTIVITY */
-
-    /* FOOTER */
-  .hebergementsfooter {
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .apropos {
-    margin: 0;
-  }
-
-  footer {
-    display: flex;
-    margin: 0;
-  }
-
-  .categoriesfooter {
-    flex-direction: column;
-    margin-right: 100px;
-  }
-
-
-  .marginfooter {
-    margin: 10px 0px 0px 40px;
-  }
-    /* FOOTER */
+.titlecategoriesfooter {
+  padding: 0;
+}
+  /* FOOTER */
 /* MAIN */
 }
 
@@ -1650,7 +1647,7 @@ footer {
   .wrapper {
     margin: 0;
     display: flex;
-    width: 355px;
+    width: 375px;
   }
 
   .imageshebergements {
@@ -1735,17 +1732,14 @@ footer {
   }
 
   .boxactivity_a , .boxactivites_b , .boxactivity_c , .boxactivity_d , .boxactivity_e, .boxactivity_f {
-    width: 325px;
-    height: 210px;
-  }
-
-  .boxactivity_f , .boxactivity_c {
-    margin: 0;
+    width: 352px;
+    height: 210px;  
+    margin: 0px 0px 25px 10px;
   }
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 170px;
-    width: 325px;
+    height: 165px;
+    width: 352px;
   }
 
   .h3boxactivty {
@@ -1755,7 +1749,7 @@ footer {
 
   .sectionsactivity {
     display: inline-block;
-    padding-left: 25px;
+    width: 375px;
     margin: 0;
   }
     /* SECTION ACTIVITY */
@@ -1773,16 +1767,20 @@ footer {
   footer {
     display: flex;
     margin: 0;
+    padding: 0 0px 0px 10px;
   }
 
   .categoriesfooter {
     flex-direction: column;
-    margin-right: 100px;
+    margin: 0;
   }
 
-
   .marginfooter {
-    margin: 10px 0px 0px 40px;
+    margin: 0;
+  }
+
+  .titlecategoriesfooter {
+    padding: 0;
   }
     /* FOOTER */
 /* MAIN */
