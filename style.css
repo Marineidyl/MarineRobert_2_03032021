@@ -885,10 +885,13 @@ footer {
  /* FOOTER */
 }
 @media only screen and (min-width: 800px) and (max-width: 833px) {
-
   header, body, html {
     overflow-x: hidden;
     margin: 0px 15px 0px 15px;
+  }
+
+  body {
+    margin: 0;
   }
 
   header {
@@ -902,10 +905,7 @@ footer {
     height: 40px;
     margin: 10px 0px 0px 0px;
     }
-    /* ICONS */
-    .starspopularity {
-      margin: 0 5px 0 0;
-    }
+    /* LOGO */
 
   /* HEADER */
       /* NAVBAR */
@@ -950,47 +950,52 @@ footer {
   }
     /* FILTER */
 
-    .containerarticles {
-      flex-direction: column;
-      width: 100%;
-    }
-  
-    .wrapper {
-      overflow: hidden;
-      display: flex;
-      flex-wrap: wrap;
-      width: 680px;
-    }
-  
-    #hebergements {
-      margin: 20px 0px 25px 25px;
-      font-size: 22px;
-    }
-  
-    .boxhebergements {
-      width: 290px;
-      height: 350px;
-      text-align: center;
-      margin: 20px 20px 35px 27px;
-    }
-  
-    .imageshebergements {
-      width: 282px;
-      height: 215px;
-    }
-  
-    .paragraphehebergements {
-      margin: 5px 15px 0px 15px;
-    }
-  
-    h4.cannebiere, h4.port, h4.mouettes, h4.mer, h4.lepanier, h4.amina {
-      margin: 0 15px 0px 15px;
-    }
-    .descriptionhebergement {
-      margin: 0;
-    }
-  
     /* SECTION HEBERGEMENT */
+
+  .articleshebergements {
+    margin: 0;
+  }
+  .containerarticles {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 770px;
+  }
+
+  #hebergements {
+    margin: 20px 0px 25px 25px;
+    font-size: 22px;
+  }
+
+  .boxhebergements {
+    width: 335px;
+    height: 310px;
+    text-align: center;
+    margin: 20px 20px 35px 27px;
+  }
+
+  .imageshebergements {
+    width: 325px;
+    height: 215px;
+  }
+
+  .paragraphehebergements {
+    margin: 5px 15px 0px 15px;
+  }
+
+  h4.cannebiere, h4.port, h4.mouettes, h4.mer, h4.lepanier, h4.amina {
+    margin: 0 15px 0px 15px;
+  }
+  .descriptionhebergement {
+    margin: 0;
+  }
+
+  /* SECTION HEBERGEMENT */
 
   /* ASIDE */
   aside {
@@ -1011,11 +1016,13 @@ footer {
   }
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height:360px;
+    height: 360px;
   }
 
   .boxactivity_f {
-    margin: 0 !important ;
+    width: 740px;
+    height: 400px;
+    margin: 0 30px;
   }
 
   .h3boxactivty {
@@ -1023,22 +1030,26 @@ footer {
   }
 
   .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
-    width: 740px;
-    height: 445px;
+    width: 695px;
+    height: 400px;
+    margin: 0 45px;
   }
 
   .boxactivity_e {
-    margin: 0px 20px 0px 0px;
+    width: 695px;
+    height: 400px;
+    margin: 0 45px;
   }
 
   .boxactivites_b {
     box-shadow: 4px 2px 20px rgb(201 201 201);
-    border-radius: 20px;
-    height: 445px;
-    margin: 0px 0px 30px 30px !important;
+    width: 695px;
+    height: 400px;
+    margin: 0 0 30px 45px;
   }
   .boxactivites_1 {
     margin-bottom: 30px;
+    width: 770px;
   }
 
   .boxactivites_2 {
@@ -1048,7 +1059,7 @@ footer {
   .sectionsactivity {
     display: inline-block;
     margin: 0;
-    width: 750px;
+    width: 805px;
   }
 
  /* MAIN */
@@ -2466,7 +2477,7 @@ footer {
 
 /* MAIN */
   main {
-    overflow-x: hidden;
+    overflow-x: clip;
     max-width: none;
   }
   /* SEARCH */
