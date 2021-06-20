@@ -74,13 +74,10 @@ nav ul li {
   padding: 36px 0px 0 0px;
 }
 
-.titlehebergement {
-  padding: 36px 30px 0 30px;
+.titlehebergement,.titleactivity1   {
+  padding: 38px 30px 0 30px;
 }
 
-.titleactivity1 {
-  padding: 36px 30px 0 30px;
-}
   /*MAIN*/
 
 /*ICONES*/
@@ -1132,46 +1129,49 @@ footer {
     /* FILTER */
 
     /* SECTION HEBERGEMENT */
-  .containerarticles {
-    flex-direction: column;
-    width: 100%;
-  }
 
-  .wrapper {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #hebergements {
-    margin: 20px 0px 25px 25px;
-    font-size: 22px;
-  }
-
-  .boxhebergements {
-    width: 545px;
-    height: 415px;
-    margin: 0px 65px 20px 65px;
-    text-align: center;
-  }
-
-  .imageshebergements {
-    width: 535px;
-    height: 320px;
-}
-
-  .paragraphehebergements {
-    margin: 5px 15px 0px 15px;
-  }
-
-  h4.cannebiere, h4.port, h4.mouettes, h4.mer, h4.lepanier, h4.amina {
-    margin: 0 15px 0px 15px;
-  }
-  .descriptionhebergement {
-    margin: 0;
-  }
-
-  /* SECTION HEBERGEMENT */
+    .articleshebergements {
+      margin: 0;
+    }
+    .containerarticles {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .wrapper {
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      width: 737px;
+    }
+  
+    #hebergements {
+      margin: 20px 0px 25px 25px;
+      font-size: 22px;
+    }
+  
+    .boxhebergements {
+      width: 335px;
+      height: 310px;
+      text-align: center;
+      margin: 20px 15px 35px 15px;
+    }
+  
+    .imageshebergements {
+      width: 325px;
+      height: 215px;
+    }
+  
+    .paragraphehebergements {
+      margin: 5px 15px 0px 15px;
+    }
+  
+    h4.cannebiere, h4.port, h4.mouettes, h4.mer, h4.lepanier, h4.amina {
+      margin: 0 15px 0px 15px;
+    }
+    .descriptionhebergement {
+      margin: 0;
+    }
 
   /* ASIDE */
   aside {
@@ -1252,13 +1252,14 @@ footer {
   .hebergementsfooter {
     padding: 0px;
   }
+
+  .assistance {
+    margin-left: 35px;
+  }
  /* FOOTER */
 }
 @media only screen and (min-width: 600px) and (max-width: 767px) {
 
-  body {
-    background-color: skyblue;
-  }
   header, body, html {
     overflow-x: hidden;
     margin: 0px 15px 0px 15px;
@@ -1491,6 +1492,14 @@ nav ul li {
   width: 50%;
   margin: 35px 0 0 0;
   text-align: center;
+}
+
+.hebergement:hover , .activity:hover{
+  border-bottom: solid 2.5px #0065fc;
+}
+
+.titlehebergement:hover, .titleactivity1:hover, .liinscription:hover {
+  border-top: none;
 }
 
 .titlehebergement {
@@ -1838,6 +1847,14 @@ footer {
     top: 30px;
   }
 
+  .titlehebergement:hover, .titleactivity1:hover, .liinscription:hover {
+    border-top: none;
+  }
+
+  .hebergement:hover, .activity:hover {
+    border-bottom: solid 2.5px #0065fc;
+  }
+    
 /* MAIN */
   main {
     overflow-x: hidden;
@@ -2158,6 +2175,14 @@ footer {
     top: 30px;
   }
 
+  .titlehebergement:hover, .titleactivity1:hover, .liinscription:hover {
+    border-top: none;
+  }
+
+  .hebergement:hover, .activity:hover {
+      border-bottom: solid 2.5px #0065fc;
+  }
+
 /* MAIN */
   main {
     overflow-x: hidden;
@@ -2473,6 +2498,14 @@ footer {
     color: #0065FC;
     position: absolute;
     top: 30px;
+  }
+
+  .titlehebergement:hover, .titleactivity1:hover, .liinscription:hover {
+    border-top: none;
+  }
+
+  .hebergement:hover, .activity:hover {
+      border-bottom: solid 2.5px #0065fc;
   }
 
 /* MAIN */
@@ -2792,6 +2825,14 @@ footer {
     top: 30px;
   }
 
+  .titlehebergement:hover, .titleactivity1:hover, .liinscription:hover {
+    border-top: none;
+  }
+
+  .hebergement:hover, .activity:hover {
+      border-bottom: solid 2.5px #0065fc;
+  }
+
 /* MAIN */
   main {
     overflow-x: clip;
@@ -3107,6 +3148,14 @@ footer {
     color: #0065FC;
     position: absolute;
     top: 30px;
+  }
+
+  .titlehebergement:hover, .titleactivity1:hover, .liinscription:hover {
+    border-top: none;
+  }
+
+  .hebergement:hover, .activity:hover {
+      border-bottom: solid 2.5px #0065fc;
   }
 
 /* MAIN */
