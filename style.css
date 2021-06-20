@@ -696,7 +696,7 @@ footer {
     margin: 0;
   }
 }
-@media only screen and (min-width: 834px) and (max-width: 900px) {
+@media only screen and (min-width: 834px) and (max-width: 1023px) {
   header, body, html {
     overflow-x: hidden;
     margin: 0px 15px 0px 15px;
@@ -782,14 +782,14 @@ footer {
 
   .boxhebergements {
     width: 315px;
-    height: 365px;
+    height: 310px;
     text-align: center;
     margin: 20px 20px 35px 27px;
   }
 
   .imageshebergements {
     width: 305px;
-    height: 270px;
+    height: 215px;
   }
 
   .paragraphehebergements {
@@ -824,11 +824,13 @@ footer {
   }
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 25em;
+    height: 360px;
   }
 
   .boxactivity_f {
-    margin: 0 !important ;
+    width: 740px;
+    height: 400px;
+    margin: 0 30px;
   }
 
   .h3boxactivty {
@@ -836,22 +838,26 @@ footer {
   }
 
   .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
-    width: 804px;
-    height: 445px;
+    width: 740px;
+    height: 400px;
+    margin: 0 30px;
   }
 
   .boxactivity_e {
-    margin: 0px 20px 0px 0px;
+    width: 740px;
+    height: 400px;
+    margin: 0 30px;
   }
 
   .boxactivites_b {
     box-shadow: 4px 2px 20px rgb(201 201 201);
-    border-radius: 20px;
-    height: 445px;
-    margin: 0px 20px 35px 0px;
+    width: 740px;
+    height: 400px;
+    margin: 0 0px 30px 30px;
   }
   .boxactivites_1 {
     margin-bottom: 30px;
+    width: 770px;
   }
 
   .boxactivites_2 {
@@ -861,7 +867,7 @@ footer {
   .sectionsactivity {
     display: inline-block;
     margin: 0;
-    width: 750px;
+    width: 805px;
   }
 
  /* MAIN */
@@ -1005,7 +1011,7 @@ footer {
   }
 
   .imgactivity1, .imgactivity2, .imgactivity3, .imgactivity4, .imgactivity5, .imgactivity6 {
-    height: 25em;
+    height:360px;
   }
 
   .boxactivity_f {
@@ -1029,7 +1035,7 @@ footer {
     box-shadow: 4px 2px 20px rgb(201 201 201);
     border-radius: 20px;
     height: 445px;
-    margin: 0px 20px 35px 0px;
+    margin: 0px 0px 30px 30px !important;
   }
   .boxactivites_1 {
     margin-bottom: 30px;
@@ -1059,7 +1065,7 @@ footer {
   }
  /* FOOTER */
 }
-@media (width: 768px) and (height: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 799px)  {
   /* STRUCTURE */
   header, body, html {
     overflow-x: hidden;
@@ -1179,7 +1185,9 @@ footer {
   }
 
   .boxactivity_f {
-    margin: 0 !important ;
+    width: 690px;
+    height: 440px;
+    margin: 0 25px;
   }
 
   .h3boxactivty {
@@ -1187,20 +1195,25 @@ footer {
   }
 
   .boxactivity_a, .boxactivites_b, .boxactivity_c, .boxactivity_d, .boxactivity_e, .boxactivity_f {
-    width: 650px;
+    width: 690px;
     height: 440px;
+    margin: 0 25px;
   }
 
   .boxactivity_e {
-    margin: 0px 20px 0px 0px;
+    width: 690px;
+    height: 440px;
+    margin: 0 25px;
   }
 
   .boxactivites_b {
     box-shadow: 4px 2px 20px rgb(201 201 201);
     border-radius: 20px;
+    width: 690px;
     height: 440px;
-    margin: 0px 20px 35px 0px;
+    margin: 0 0px 30px 25px;
   }
+
   .boxactivites_1 {
     margin-bottom: 30px;
   }
