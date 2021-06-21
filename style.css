@@ -2004,10 +2004,9 @@ footer {
 
     /* ASIDE */  
     aside {
-      margin: 0px 0px 0 0px;
+      margin: 0;
       border-radius: 0;
-      width: 372px;
-      padding: 0 20px;
+      width: 415px;
   }
 
   .paragraphepopularities {
@@ -2025,7 +2024,7 @@ footer {
   }
 
   .articlespopularity {
-    width: 100%;
+    width: 390px;
   }
 
   .imagespopularities {
@@ -2034,7 +2033,7 @@ footer {
   }
 
   .blocpopularity {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   .more {
