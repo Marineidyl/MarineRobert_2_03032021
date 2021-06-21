@@ -1658,7 +1658,7 @@ h3.titlefilter {
 }
 
 #hebergements {
-  margin: 20px 0px 25px 0px;
+  margin: 20px 0px 25px 15px;
 }
 
 .containerarticles {
@@ -1676,10 +1676,10 @@ h3.titlefilter {
 
   /* ASIDE */  
   aside {
-    margin: 0px 0px 0 0px;
+    margin: 0;
     border-radius: 0;
-    width: 375px;
-    padding: 0 20px;
+    width: 415px;
+    padding: 0;
 }
 
 .paragraphepopularities {
@@ -1697,7 +1697,7 @@ h3.titlefilter {
 }
 
 .articlespopularity {
-  width: 100%;
+  width: 390px;
 }
 
 .imagespopularities {
@@ -1706,7 +1706,7 @@ h3.titlefilter {
 }
 
 .blocpopularity {
-  margin: 0 20px;
+  margin: 0px 10px
 }
 
 .more {
