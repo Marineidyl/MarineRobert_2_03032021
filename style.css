@@ -2279,10 +2279,14 @@ footer {
   }
 
   .sunstars {
-    padding: 0;
+    padding: 25px 0px 0 0px;
   }
 
-  .bedroomstars, .whiteandbluestars {
+  .whiteandbluestars {
+    padding: 30px 0 0 0; 
+  }
+
+  .bedroomstars {
     padding: 10px 0 0 0;
   }
   /* HEBERGEMENT */
@@ -2328,10 +2332,9 @@ footer {
 
     /* ASIDE */  
     aside {
-      margin: 0px 0px 0 0px;
+      margin: 0;
       border-radius: 0;
-      width: 373px;
-      padding: 0 20px;
+      width: 412px;
   }
 
   .paragraphepopularities {
@@ -2358,7 +2361,7 @@ footer {
   }
 
   .blocpopularity {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   .more {
@@ -3305,11 +3308,10 @@ footer {
   }
 
     /* ASIDE */  
-    aside {
-      margin: 0px 0px 0 0px;
-      border-radius: 0;
-      width: 21em;
-      padding: 0 20px;
+  aside {
+    margin: 0;
+    border-radius: 0;
+    width: 23em;
   }
 
   .paragraphepopularities {
@@ -3327,7 +3329,7 @@ footer {
   }
 
   .articlespopularity {
-    width: 100%;
+    width: 340px;
   }
 
   .imagespopularities {
@@ -3336,7 +3338,7 @@ footer {
   }
 
   .blocpopularity {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   .more {
